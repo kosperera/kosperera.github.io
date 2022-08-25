@@ -41,7 +41,7 @@ defaults:
 permalink: pretty
 sass:
   style: compressed
-# theme: minima
+remote_theme: alertbox/zebra-snooze
 # Gems
 plugins:
   - github-pages
