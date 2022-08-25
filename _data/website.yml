@@ -26,7 +26,7 @@ bookmarks:
     - title: Notes to self
       permalink: https://notestoself.hashnode.dev
       excerpt: >- # this can be a bit longer so write it as you wish.
-        These journal notes or blikies or whatever, its content, and opinions are my own. I blog about tech, code, and above all, the open web.
+        These articles, blikies, or whatever, their content, and opinions are my own, compiled from the developer journal of my own.
     - title: Talks
       permalink: /talks/
       excerpt: >- # this can be a bit longer so write it as you wish.
@@ -34,7 +34,7 @@ bookmarks:
     - title: Books
       permalink: /books/
       excerpt: >- # this can be a bit longer so write it as you wish.
-        Attempts of fiction writing around the plots I've always fantasize. This is how it all should have happened.
+        Attempts of fiction writing around the plots I've always fantasized. This is how it all should have happened.
     - title: AMA
       permalink: https://github.com/kosalanuwan/ama/#readme
       excerpt: >- # this can be a bit longer so write it as you wish.
@@ -50,7 +50,7 @@ bookmarks:
         - title: vscode-remote-try-*
           permalink: https://github.com/kosalanuwan?tab=repositories&q=vscode-remote-try-&type=&language=
           excerpt: >- # this can be a bit longer so write it as you wish.
-            Quick-starter project templates and its prerequisites for use with VS Code Remote - Containers and GitHub Codespaces.
+            Quick-starter project templates and its prerequisites for use with GitHub Codespaces.
         - title: Skol
           permalink: https://github.com/alertbox/skol-backend-monolithic-webapi#readme
           excerpt: >- # this can be a bit longer so write it as you wish.
