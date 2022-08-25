@@ -1,6 +1,10 @@
+{% assign website = site.data.website %}
+
 <h1>
-    <a href="{{ site.baseurl }}/">{{ website.title }}</a>
+  <a href="{{ site.baseurl }}/">
+    <span>@</span>{{ website.title }}
+  </a>
 </h1>
 <p class="lead">
-    {{ website.description }}
+  {{ website.description }}
 </p>

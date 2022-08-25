@@ -1,5 +1,5 @@
 {
-	"name": "GitHub Pages (Jekyll)",
+	"name": "kosalanuwan.github.io",
 	"image": "mcr.microsoft.com/vscode/devcontainers/base:dev-bullseye",
 
 	"containerEnv": {
@@ -15,7 +15,7 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
 		// Jekyll server
-		8004,
+		4443,
 		// Live reload server
 		35729
 	],

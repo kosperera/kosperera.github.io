@@ -1,7 +1,7 @@
-port: 8004
+port: 4443
 url: http://localhost
 
-# baseurl: "" to just use http://localhost:8004.
+# baseurl: "" to just use http://localhost:4443.
 baseurl: ""
 
 # Build settings

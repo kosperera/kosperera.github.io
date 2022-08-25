@@ -1,0 +1,11 @@
+{% assign speaker_deck = include.speaker_deck %}
+
+<article>
+    <h3>{{ speaker_deck.title }}</h3>
+    <h4>{{ speaker_deck.date_started | date: "%B %Y" }}</h4>
+    {% include speaker-deck.html speaker_deck=speaker_deck %}
+    <p>
+        <h5>{{ speaker_deck.genre | sort | join: ', '}}</h5>
+    </p>
+    <p>{{ speaker_deck.excerpt }}</p>
+</article>
