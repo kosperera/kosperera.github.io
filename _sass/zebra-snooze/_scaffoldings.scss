@@ -1,0 +1,153 @@
+@charset 'UTF-8';
+
+/*
+ * Scaffolding and type
+ */
+
+html {
+    font-family: var(--paragraph-text);
+    font-size: 16px;
+}
+
+@media (min-width: 40em) {
+    html {
+        font-size: 20px;
+    }
+}
+
+body {
+    padding: 2rem var(--gutter);
+    margin: 0;
+    line-height: 1.5;
+    color: var(--paragraph);
+    background-color: var(--background);
+    font-weight: var(--paragraph-text-weight);
+}
+
+p {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 0.25rem;
+}
+
+a {
+    font-weight: inherit;
+    line-height: inherit;
+    color: var(--paragraph);
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    // -webkit-text-decoration-color: var(--link-border-color);
+    text-decoration-skip-ink: auto;
+}
+
+a:hover {
+    color: var(--link);
+    text-decoration: underline;
+    // -webkit-text-decoration-color: var(--link-border-color-hover);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    line-height: 1.1;
+    color: var(--headline);
+    letter-spacing: -0.025rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+p + h1,
+p + h2,
+p + h3,
+ul + h1,
+ul + h2,
+ul + h3,
+ol + h1,
+ol + h2,
+ol + h3 {
+    margin-top: 1.5rem;
+}
+
+strong {
+    font-weight: bold;
+    // color: var(--heading-color);
+}
+
+mark {
+    color: var(--highlight-paragraph);
+    background-color: var(--highlight-background);
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-left: 1.5em;
+}
+
+.body li {
+    margin-bottom: 0.25rem;
+}
+
+ul ul {
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+hr {
+    width: auto;
+    height: 1px;
+    margin: 2.5rem 0;
+    background-color: var(--stroke);
+    border: 0;
+}
+
+blockquote {
+    position: relative;
+    padding: 0 0 0 1.5rem;
+    margin: 0 2rem 1rem -2rem;
+    // color: var(--quote);
+    font-style: italic;
+    border-left: 0.5rem solid var(--quote-stroke);
+}
+
+// blockquote p:last-child {
+//     margin-bottom: 0
+// }
+
+// Footnote number within body text
+a[href^="#fn:"],
+// Back to footnote link
+a[href^="#fnref:"] {
+    display: inline-block;
+    margin-left: 0.1rem;
+    outline: medium none;
+}
+
+/* Tighten up margin on last items */
+p:last-child,
+ul:last-child,
+blockquote:last-child {
+    margin-bottom: 0;
+}

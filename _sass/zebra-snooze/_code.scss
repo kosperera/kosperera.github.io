@@ -1,0 +1,85 @@
+@charset 'UTF-8';
+
+/*
+ * Code
+ */
+
+code,
+pre {
+    font-family: var(--code-paragraph-text);
+    font-size: 85%;
+    font-style: normal;
+    font-weight: normal;
+    color: var(--code-paragraph);
+}
+
+:not(pre) > code {
+    display: inline-block;
+    background-color: var(--code-paragraph);
+    color: var(--code-background-secondary);
+    border: 0.5px solid var(--code-paragraph);
+    border-radius: 0.25rem;
+    padding: 0.01em 0.5em;
+    margin: 0 2px;
+}
+
+@media (max-width: 30em) {
+    code {
+        word-break: break-word;
+    }
+}
+
+pre {
+    display: block;
+    margin: 0 0 1rem;
+}
+
+pre.highlight {
+    margin-right: calc(var(--gutter) * -1);
+    margin-bottom: 1rem;
+    margin-left: calc(var(--gutter) * -1);
+    padding: 0.75rem var(--gutter);
+    overflow: auto;
+    background-color: var(--code-background);
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+@media (min-width: 34em) {
+    pre.highlight {
+        margin-right: 0;
+        margin-left: 0;
+        padding-left: calc(var(--gutter) - 0.25rem);
+        border-left: 0.25rem solid var(--code-background);
+        border-radius: 0.25rem;
+    }
+}
+
+.gist .gist-file {
+    font-family: var(--code-paragraph-text);
+}
+
+.gist .gist-file .gist-data {
+    font-size: 85% !important;
+    line-height: 1.4;
+}
+
+.gist .markdown-body {
+    padding: 15px;
+}
+
+.gist .highlight {
+    margin-bottom: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.gist pre {
+    padding: 0;
+    background-color: transparent;
+}
+
+.gist code {
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+}

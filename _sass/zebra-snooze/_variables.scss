@@ -1,0 +1,50 @@
+@charset 'UTF-8';
+
+/*
+ * Variables
+ */
+
+:root {
+    --background: #fffffe;
+    --paragraph: #2e2e2e;
+    --paragraph-text: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    --paragraph-text-weight: 300;
+    --link: #e45858;
+    --stroke: #f2eef5;
+
+    --headline: #010101;
+    --headline-link: #e45858;
+
+    --highlight-background: #2e2e2e;
+    --highlight-paragraph: #fffffe;
+
+    --quote: #72757e;
+    --quote-stroke: #e45858;
+
+    --gutter: 1.5rem;
+
+    /*
+     * Syntax Highlighting
+     */
+    --code-background: #2e2e2e;
+    --code-paragraph: #e45858;
+    --code-paragraph-text: Menlo, Monaco, "Courier New", monospace !important;
+    --code-background-secondary: #fffffe;
+
+    --base00: #707070;
+    --base01: #707070;
+    --base02: #707070;
+    --base03: #707070;
+    --base04: #707070;
+    --base05: #e5e5e5;
+    --base06: #e5e5e5;
+    --base07: #e45858;
+    --base08: #e45858;
+    --base09: #e45858;
+    --base0A: gold; //#abe338;
+    --base0B: #e5e5e5;
+    --base0C: #e45858;
+    --base0D: #e45858;
+    --base0E: gold; //#abe338;
+    --base0F: #e45858;
+}

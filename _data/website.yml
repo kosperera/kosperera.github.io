@@ -1,0 +1,22 @@
+title: zebra snooze
+tagline: >-
+  This is the sixth zebra snoozing thoroughly.
+description: >- # tagline can be a bit lengthy sometimes
+  <a href="https://github.com/alertbox"><span>@</span>alertbox</a>'s sixth zebra snoozing thoroughly for a Jekyll remote theme.
+
+bugs: https://github.com/alertbox/ama/#readme
+date_format: "%b %-d, %Y"
+
+# Feature flags
+show_post_meta: true
+show_social_links: true
+
+# Site author
+author: 
+  name: Alertbox Inc.
+  avatar: https://avatars.githubusercontent.com/u/4471443?v=4
+  email: alertbox.incgmail.com
+  # Social
+  public_site: https://alertbox.github.io/zebra-snooze/
+  github: alertbox
+  twitter: alertboxinc

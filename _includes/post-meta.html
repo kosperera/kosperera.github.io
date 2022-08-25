@@ -1,0 +1,19 @@
+{% assign website = site.data.website %}
+
+{% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
+{% if minutes == 0 %}
+    {% assign minutes = 1 %}
+{% endif %}
+
+<div class="meta">
+    {{ page.date | date_to_long_string: "ordinal" }}
+</div>
+
+<small class="meta">
+    {{ page.minutes | default: minutes }} {{ website.text.post.minute_read | default: "minute read" }}
+</small>
+
+<div class="twitter-button">
+    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-via="{{website.author.twitter}}" data-hashtags="#bliki" data-show-count="false">Tweet</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>

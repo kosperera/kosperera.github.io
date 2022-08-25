@@ -1,0 +1,22 @@
+{% assign author = site.data.website.author %}
+
+<div class="links">
+    {% if author.github %}
+    <a href="https://github.com/{{ author.github }}">
+        <span class="icon icon-github-circled"></span>
+    </a>
+    {% endif %}
+
+    {% if author.twitter %}
+    <a href="https://twitter.com/{{ author.twitter }}">
+        <span class="icon icon-twitter"></span>
+    </a>
+    {% endif %}
+
+    {% if author.linkedin %}
+    <a href="https://www.linkedin.com/in/{{ author.linkedin }}">
+        <span class="icon icon-linkedin"></span>
+    </a>
+    {% endif %}
+
+</div>

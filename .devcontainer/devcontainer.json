@@ -1,0 +1,76 @@
+{
+	"name": "GitHub Pages (Jekyll)",
+	"image": "mcr.microsoft.com/vscode/devcontainers/base:dev-bullseye",
+
+	"containerEnv": {
+		"LANG":"en_US.UTF-8",
+		"LANGUAGE":"en_US:en",
+		"TZ":"Etc/UTC",
+		"LC_ALL":"en_US.UTF-8"
+	},
+
+    "workspaceMount": "src=${localWorkspaceFolder},dst=/workspace,type=bind,consistency=cached",
+	"workspaceFolder": "/workspace",
+	
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [
+		// Jekyll server
+		8004,
+		// Live reload server
+		35729
+	],
+
+	"features": {
+		"common": {
+			"username": "automatic",
+			"uid": "automatic",
+			"gid": "automatic",
+			"installZsh": true,
+			"upgradePackages": true
+		},
+		// GitHub Pages dependencies https://pages.github.com/versions/
+		"ruby": "2.7.4",
+		"node": {
+			"version": "lts",
+        	"nodeGypDependencies": true
+		},
+		"docker-from-docker": {
+			"version": "latest",
+			"moby": false,
+			"dockerDashComposeVersion": "v2"
+		},
+		"github-cli": "latest"
+	},
+	// Set *default* container specific settings.json values on container create.
+	"settings": {
+		"terminal.integrated.defaultProfile.linux": "zsh",
+		"editor.formatOnPaste": true,
+		"editor.guides.bracketPairs": "active",
+		"debug.internalConsoleOptions": "neverOpen",
+
+		"files.watcherExclude": {
+			"**/_site/**": true
+		}
+	},
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [		
+		"ms-vscode.wordcount",
+		"editorconfig.editorconfig",
+		"esbenp.prettier-vscode",
+		"streetsidesoftware.code-spell-checker",
+        "znck.grammarly",
+		"redhat.fabric8-analytics",
+		"redhat.vscode-yaml",
+		"bierner.github-markdown-preview"
+	],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// Fix for Omnisharp analyzer fail
+	// Read more https://github.com/OmniSharp/omnisharp-vscode/issues/3143#issuecomment-513501863
+	"postCreateCommand": "zsh .devcontainer/post-create.zsh",
+	// "overrideCommand": false,
+	
+	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "vscode"
+}

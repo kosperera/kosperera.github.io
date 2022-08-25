@@ -1,0 +1,37 @@
+{% assign website = site.data.website %}
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="author" content="{{ website.author | xml_escape }}">
+  <meta name="description" content="{% if page.meta_description %}{{ page.meta_description | xml_escape }}{% elsif page.summary %}{{ page.summary | xml_escape }}{% else %}{{ website.description | xml_escape }}{% endif %}">
+
+  {% if page.categories %}
+    <meta name="keywords" content="{{ page.categories | join: ', ' }}">
+  {% endif %}
+
+  {% if page.meta_robots %}
+    <meta name="robots" content="{{ page.meta_robots }}">
+  {% else %}
+    <meta name="robots" content="all">
+  {% endif %}
+
+  <title>
+    {% if page.url == '/' %}
+      {{ website.title }} &middot; {{ website.tagline }}
+    {% else %}
+      {{ page.title }} &middot; {{ website.title }}
+    {% endif %}
+  </title>
+
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ website.title }}" href="{{ '/atom.xml' | absolute_url }}">
+  <!-- Fonts -->
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic|PT+Mono&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <!-- Icons -->
+  <link rel="shortcut icon" href="{{ "/assets/img/favicon.ico" | relative_url }}">
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
+</head>

@@ -1,0 +1,62 @@
+@charset 'UTF-8';
+
+/*
+ * Masthead
+ */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 34em) {
+  header {
+    padding-top: 1rem;
+    max-width: 62%;
+  }
+}
+
+header {
+  h1 > a {
+    color: var(--headline);
+  }
+
+  h1 > a:hover {
+    color: var(--headline-link);
+  }
+
+  h1 span {
+    display: inline-block;
+    font-weight: 300;
+  }
+
+  .lead {
+    font-size: 1.25rem;
+    line-height: 1.3;
+    color: var(--headline);
+  }
+
+  .lead span {
+    display: inline-block;
+    font-weight: 300;
+  }
+
+  /* Author links */
+
+  .links {
+    font-size: 1.5rem;
+  }
+
+  .links a {
+    color: var(--headline);
+    margin-right: 0.5rem;
+  }
+
+  .links a:hover {
+    color: var(--headline-link);
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,10 @@
+{% assign website = site.data.website %}
+
+<header>
+    {% include masthead-title.html %}
+    
+    {% if website.show_social_links && website.author %}
+      {% include masthead-social.html %}
+    {% endif %}
+  
+</header>

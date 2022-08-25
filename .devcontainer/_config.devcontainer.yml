@@ -1,0 +1,12 @@
+port: 8004
+url: http://localhost
+
+# baseurl: "" to just use http://localhost:8004.
+baseurl: ""
+
+# Build settings
+show_drafts: true
+future: true
+unpublished: true
+
+github: [metadata]
