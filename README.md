@@ -1,8 +1,8 @@
-# Hello world :wave:
+# Hi
 
 [<img src="http://ghchart.rshah.org/AF0000/kosalanuwan" alt="Kosala Nuwan's GitHub contributions" width="100%" />][github-overview]
 
-[GitHub][github] use to be my unicorn and now it is **_my bitch_**. I interact with GitHub daily, so why not use it for the everyday things? It makes more sense, at least for me. I'm that nerd :nerd_face:
+[GitHub][github] use to be my unicorn and now it is **_my bitch_**. I interact with GitHub daily, so why not use it for everyday things? It makes more sense, at least for me. I'm that nerd :nerd_face:
 
 In case you were wondering, the content in this repo is:
 
