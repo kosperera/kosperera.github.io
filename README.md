@@ -1,4 +1,4 @@
-# Hi
+# It's actually me
 
 [<img src="http://ghchart.rshah.org/AF0000/kosalanuwan" alt="Kosala Nuwan's GitHub contributions" width="100%" />][github-overview]
 
@@ -8,14 +8,18 @@ In case you were wondering, the content in this repo is:
 
 - Designed and coded on a Mac in Colombo, Sri Lanka.
 - Coded with [Visual Studio Code][vscode].
-- Built on [Jekyll][jekyll], the opensource static site generator using a [devcontainer][pages-devcontainers].
+- Built on [Jekyll][jekyll], the open source static site generator using a [devcontainer][pages-devcontainers].
 - Published with [GitHub Pages Actions][github-pages-action].
 - Hosted on [GitHub Pages][site], and
 - Originally, a flavor of [the Zebra Snooze theme][zebra-snooze].
 
 And, this article amongst rest are written in [Markdown][markdown] with [Typora app][typora].
 
+You can find more about my work on [my GitHub Page][site].
+
 /KP
+
+
 
 [site]: https://kosalanuwan.github.io
 [github]: https://github.com
@@ -27,6 +31,8 @@ And, this article amongst rest are written in [Markdown][markdown] with [Typora 
 [zebra-snooze]: https://github.com/alertbox/zebra-snooze/#readme
 [markdown]: https://
 [typora]: https://
+
+
 
 ## License
 
