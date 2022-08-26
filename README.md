@@ -1,68 +1,35 @@
-# Tryout GitHub Pages (Jekyll)
+# Hello world :wave:
 
-[<img align="right" alt="GitHub Pages" width="128rem" src="https://avatars.githubusercontent.com/u/9919?s=200&v=4" />][github-pages]
+[<img align="right" alt="GitHub Pages" width="128rem" src="https://avatars.githubusercontent.com/u/958227?s=200&v=4" />][site]
 
-Develop [GitHub Pages][github-pages], static sites, and themes with [Jekyll][jekyll]. Include extensions and related dependencies for use with [devcontainers][devcontainers].
+[GitHub][github] use to be my unicorn and now it is **_my bitch_**. I interact with GitHub daily, so why not use it for the journal? It makes more sense, at least for me. I'm that nerd :nerd_face: 
 
-[github-pages]: https://guides.github.com/features/pages/
-[jekyll]: https://jekyllrb.com/tutorials/video-walkthroughs/
-[devcontainers]: https://containers.dev/
+[<img src="http://ghchart.rshah.org/AF0000/kosalanuwan" alt="Kosala Nuwan's GitHub contributions" width="100%" />][github-overview]
 
-### What's in it:
+In case you were wondering, this repo is:
 
-- Ruby >= 2.7 and Bundler.
-- Jekyll and the required tools and gems.
-- VS Code Extensions and the tasks to build and test locally.
-- ZSH integrated terminal.
-- Git and GitHub CLI for source control and versioning.
-- Docker CLI and Docker Compose v2.
+- Designed and coded on a Mac in Colombo, Sri Lanka.
+- Coded with [Visual Studio Code][vscode].
+- Built on [Jekyll][jekyll], the opensource static site generator using a [devcontainer][pages-devcontainers].
+- Published with [GitHub Pages Actions][github-pages-action].
+- Hosted on [GitHub Pages][github-pages], and
+- Originally, a flavor of [the Zebra Snooze theme][zebra-snooze].
 
-## Usage
+And, this article amongst rest are written in [Markdown][markdown] with [Typora app][typora].
 
-In this devcontainer, you'll find the files you need to be able to generate a static sites and themes with Jekyll.
+/KP
 
-To set up your environment to develop static sites and themes, you want a copy of this devcontainer. Luckily, this repo is marked as a `Template` so you can simply [Use This Template][use-this] yourself without having to install any tools and dependencies via `brew`  and whatnot. You will want to follow this generic pattern:
-
-1. First, you will have to create a GitHub account if you don't have one already. [GitHub's Learning Lab][learning-lab] is a good source of information. Sign in to GitHub using your credentials, otherwise.
-2. Next, [Use This Template][use-this] to create a copy of this repo, then follow the instructions. Read more about this in the [GitHub Template Repositories][template-repos] document.
-3. Once you obtain your own copy of this repo, you will have to rebuild the container. Luckly, even if you are not familiar, these steps should be pretty easy to follow. [Developing in Codespaces using VS Code][use-codespaces-with-vscode] is a good source of information.
-
-That's it. You now have a Jekyll-enabled minimal devcontainer, and is ready to start working locally or on the cloud.
-
-[use-this]: /generate
-[learning-lab]: https://lab.github.com/
-[template-repos]: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template
-[use-codespaces-with-vscode]: https://docs.github.com/en/codespaces/developing-in-codespaces/using-github-codespaces-in-visual-studio-code
-
->  **Note**
->
->  Whilst devcontainer should work unmodified, you can [select the version of Debian][devcontainer-tags] and it's [features used][devcontainer-features] by updating the `devcontainer.json`.
-
-[devcontainer-tags]: https://mcr.microsoft.com/v2/vscode/devcontainers/base/tags/list
-[devcontainer-features]: https://github.com/microsoft/vscode-dev-containers/tree/main/script-library/docs
-
-## Development
-
-To create a Jekyll project, run `jekyll new . --force`, and Jekyll will generate a project and its prerequisites in this directory based on [site template][site-template-path].
-
-To test your site locally, press `F1` and run task `live-serve`. This starts a Jekyll server and generate your static site. You should see the content in your favorite browser at [localhost:4000](http://localhost:4000).
-
-To experiment with this devcontainer, you can directly reference [@kosalanuwan's developer journal notes][hashnode-notes-to-self] on Hashnode.
-
-[site-template-path]: https://github.com/jekyll/jekyll/tree/master/lib/site_template
-[hashnode-notes-to-self]: https://notestoself.hashnode.dev/tags/jekyll
-
-## Feedback
-
-If you have technical problems with devcontainers, you are better off [asking GitHub Codespaces Support][codespaces-support] directly, since you'll end up getting a much faster response back that way.
-
-[codespaces-support]: https://support.github.com/features/codespaces
-
-## Contributing
-
-The official repo to contribute would be [@microsoft/vscode-dev-devcontainers][vscode-dev-containers-repo].
-
-[vscode-dev-containers-repo]: https://github.com/microsoft/vscode-dev-containers/#readme
+[site]: https://kosalanuwan.github.io
+[github]: https://github.com
+[github-overview]: https://github.com/kosalanuwan
+[vscode]: https://code.visualstudio.com/
+[jekyll]: https://
+[pages-devcontainers]: https://github.com/alertbox/vscode-remote-try-pages/#readme
+[github-pages-action]: https://
+[github-pages]: https://
+[zebra-snooze]: https://github.com/alertbox/zebra-snooze/#readme
+[markdown]: https://
+[typora]: https://
 
 ## License
 
