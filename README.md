@@ -1,10 +1,8 @@
-[<img src="http://ghchart.rshah.org/AF0000/kosalanuwan" alt="Kosala Nuwan's GitHub contributions" width="100%" />][github-overview]
-
 # Hello world :wave:
 
-[GitHub][github] use to be my unicorn and now it is **_my bitch_**. I interact with GitHub daily, so why not use it for the journal? It makes more sense, at least for me. I'm that nerd :nerd_face:
+[<img src="http://ghchart.rshah.org/AF0000/kosalanuwan" alt="Kosala Nuwan's GitHub contributions" width="100%" />][github-overview]
 
-[<img align="right" alt="GitHub Pages" width="128rem" src="https://avatars.githubusercontent.com/u/958227?s=200&v=4" />][site]
+[GitHub][github] use to be my unicorn and now it is **_my bitch_**. I interact with GitHub daily, so why not use it for the journal? It makes more sense, at least for me. I'm that nerd :nerd_face:
 
 In case you were wondering, this repo is:
 
@@ -12,7 +10,7 @@ In case you were wondering, this repo is:
 - Coded with [Visual Studio Code][vscode].
 - Built on [Jekyll][jekyll], the opensource static site generator using a [devcontainer][pages-devcontainers].
 - Published with [GitHub Pages Actions][github-pages-action].
-- Hosted on [GitHub Pages][github-pages], and
+- Hosted on [GitHub Pages][site], and
 - Originally, a flavor of [the Zebra Snooze theme][zebra-snooze].
 
 And, this article amongst rest are written in [Markdown][markdown] with [Typora app][typora].
@@ -26,7 +24,6 @@ And, this article amongst rest are written in [Markdown][markdown] with [Typora 
 [jekyll]: https://
 [pages-devcontainers]: https://github.com/alertbox/vscode-remote-try-pages/#readme
 [github-pages-action]: https://
-[github-pages]: https://
 [zebra-snooze]: https://github.com/alertbox/zebra-snooze/#readme
 [markdown]: https://
 [typora]: https://
