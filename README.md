@@ -1,10 +1,10 @@
+[<img src="http://ghchart.rshah.org/AF0000/kosalanuwan" alt="Kosala Nuwan's GitHub contributions" width="100%" />][github-overview]
+
 # Hello world :wave:
 
+[GitHub][github] use to be my unicorn and now it is **_my bitch_**. I interact with GitHub daily, so why not use it for the journal? It makes more sense, at least for me. I'm that nerd :nerd_face:
+
 [<img align="right" alt="GitHub Pages" width="128rem" src="https://avatars.githubusercontent.com/u/958227?s=200&v=4" />][site]
-
-[GitHub][github] use to be my unicorn and now it is **_my bitch_**. I interact with GitHub daily, so why not use it for the journal? It makes more sense, at least for me. I'm that nerd :nerd_face: 
-
-[<img src="http://ghchart.rshah.org/AF0000/kosalanuwan" alt="Kosala Nuwan's GitHub contributions" width="100%" />][github-overview]
 
 In case you were wondering, this repo is:
 
