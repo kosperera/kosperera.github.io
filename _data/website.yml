@@ -135,6 +135,13 @@ talks:
     date_presented: 2017-6-1
     slide: 5
 
+  - key: 3609b4c2e86845bca1cadc8a9860bbaf
+    title: Inner Sourcing
+    excerpt: >- # this can be a bit longer so write it as you wish.
+      A brief walkthru on Inner Sourcing, especially for an enterprises to adopt open source engineering practices, 
+      based on facts and numbers from surveys provided by Open Source and Inner Source forums.
+    date_presented: 2016-11-5
+
   - key: 0865527f9dc64794bbfd93a7fcfcf046
     title: Refactoring Smelly Code
     excerpt: >- # this can be a bit longer so write it as you wish.
