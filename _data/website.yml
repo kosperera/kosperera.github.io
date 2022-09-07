@@ -136,10 +136,10 @@ talks:
     slide: 5
 
   - key: 3609b4c2e86845bca1cadc8a9860bbaf
-    title: Inner Sourcing
+    title: InnerSourcing
     excerpt: >- # this can be a bit longer so write it as you wish.
-      A brief walkthru on Inner Sourcing, especially for an enterprises to adopt open source engineering practices, 
-      based on facts and numbers from surveys provided by Open Source and Inner Source forums.
+      A brief walkthru on InnerSource based on surveys done by Open Source Initiative and InnerSource Commons, to convince enterprises 
+      to adopt lessons learned from open source engineering practices and apply them to the way enterprise products are being engineered internally.
     date_presented: 2016-11-5
 
   - key: 0865527f9dc64794bbfd93a7fcfcf046
