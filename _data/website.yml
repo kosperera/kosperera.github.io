@@ -134,6 +134,10 @@ talks:
       with a limited audience to have a taste of Google's Design Sprints combined with Eric Ries's Lean Startup.
     date_presented: 2017-6-1
     slide: 5
+    hosted_by:
+      name: The Team HEX
+      website: https://www.facebook.com/HumanExperienceSL/
+      venue: Colombo, Sri Lanka
 
   - key: 3609b4c2e86845bca1cadc8a9860bbaf
     title: InnerSourcing
