@@ -47,10 +47,10 @@ bookmarks:
           permalink: https://github.com/kosalanuwan/dotfiles#readme
           excerpt: >- # this can be a bit longer so write it as you wish.
             Personal dotfiles and bash scripts for setting up fresh install of macOS.
-        - title: vscode-remote-try-*
-          permalink: https://github.com/kosalanuwan?tab=repositories&q=vscode-remote-try-&type=&language=
+        - title: devcontainers-try-*
+          permalink: https://github.com/kosalanuwan?tab=repositories&q=devcontainers-try-&type=&language=
           excerpt: >- # this can be a bit longer so write it as you wish.
-            Quick-starter project templates and its prerequisites for use with GitHub Codespaces.
+            Quick-starter templates and its prerequisites for use of development containers with VS Code and GitHub Codespaces.
         - title: Skol
           permalink: https://github.com/alertbox/skol-backend-monolithic-webapi#readme
           excerpt: >- # this can be a bit longer so write it as you wish.
