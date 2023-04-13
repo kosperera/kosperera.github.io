@@ -23,10 +23,10 @@ author:
 
 bookmarks: 
   top5:
-    - title: Keep on truckin'
+    - title: Articles
       permalink: https://keepontruckin.hashnode.dev
       excerpt: >- # this can be a bit longer so write it as you wish.
-        These articles, blikies, or whatever, their content, and opinions are my own, compiled from my developer journals.
+        These articles, blikies, or whatever, their content, and opinions are my own, aggregated from my developer journal notes.
     - title: Talks
       permalink: /talks/
       excerpt: >- # this can be a bit longer so write it as you wish.
