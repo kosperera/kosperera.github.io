@@ -1,6 +1,6 @@
-# It's actually me
+# @TheRealKosala
 
-[<img src="http://ghchart.rshah.org/AF0000/kosalanuwan" alt="Kosala Nuwan's GitHub contributions" width="100%" />][github-overview]
+[<img src="http://ghchart.rshah.org/AF0000/therealkosala" alt="@TheRealKosala's GitHub contributions" width="100%" />][github-overview]
 
 [GitHub][github] use to be my unicorn and now it is **_my bitch_**. I interact with GitHub daily, so why not use it for everyday things? It makes more sense, at least for me. I'm that nerd :nerd_face:
 
@@ -21,12 +21,12 @@ You can find more about my work on [my GitHub Page][site].
 
 
 
-[site]: https://kosalanuwan.github.io
+[site]: https://therealkosala.github.io
 [github]: https://github.com
-[github-overview]: https://github.com/kosalanuwan
+[github-overview]: https://github.com/therealkosala
 [vscode]: https://code.visualstudio.com/
 [jekyll]: https://
-[pages-devcontainers]: https://github.com/alertbox/vscode-remote-try-pages/#readme
+[pages-devcontainers]: https://github.com/alertbox/try-gh-pages/#readme
 [github-pages-action]: https://
 [zebra-snooze]: https://github.com/alertbox/zebra-snooze/#readme
 [markdown]: https://

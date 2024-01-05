@@ -25,8 +25,8 @@ encoding: utf-8
 # in the templates via {{ site.myvariable }}.
 
 baseurl: ""
-url: https://kosalanuwan.github.io
-repository: kosalanuwan/kosalanuwan.github.io
+url: https://therealkosala.github.io
+repository: therealkosala/therealkosala.github.io
 
 # Defaults
 defaults:

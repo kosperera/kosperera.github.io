@@ -1,9 +1,9 @@
-title: kosalanuwan
+title: TheRealKosala
 tagline: A long-term Hubber
 description: >- # tagline can be a bit lengthy sometimes
   Product / Platform Engineer. JavaScript C# Serverless. Developer Advocate. Currently <a href="https://www.virtusa.com/">@Virtusa</a>. Long-term Hubber.
 
-bugs: https://github.com/kosalanuwan/ama/issues/new?assignees=&labels=&template=bug_report.md&title=
+bugs: https://github.com/therealkosala/ama/issues/new?assignees=&labels=&template=bug_report.md&title=
 date_format: "%b %-d, %Y"
 
 # Feature flags
@@ -12,19 +12,19 @@ show_social_links: true
 
 # Site author
 author: 
-  name: Kosala Nuwan Perera
+  name: Kosala (Nuwan) Perera
   avatar: https://avatars1.githubusercontent.com/u/958227?s=460&u=9b166f138e17fd8a8a60177dbbaa79deff890ac6&v=4
   email: kosala.nuwan@gmail.com
   # Social
-  github: kosalanuwan
-  twitter: kosalanuwan
-  linkedin: kosalanuwan
-  blog: kosalanuwan
+  github: therealkosala
+  twitter: therealkosala
+  linkedin: therealkosala
+  blog: therealkosala
 
 bookmarks: 
   top5:
     - title: Articles
-      permalink: https://itsactuallyme.hashnode.dev
+      permalink: https://dev.to/@therealkosala
       excerpt: >- # this can be a bit longer so write it as you wish.
         These articles, blikies, or whatever, their content, and opinions are my own, aggregated from my developer journal notes.
     - title: Talks
@@ -36,7 +36,7 @@ bookmarks:
       excerpt: >- # this can be a bit longer so write it as you wish.
         Attempts of fiction writing around the plots I've always fantasized. This is how it all should have happened.
     - title: AMA
-      permalink: https://github.com/kosalanuwan/ama/#readme
+      permalink: https://github.com/therealkosala/ama/#readme
       excerpt: >- # this can be a bit longer so write it as you wish.
         Feel free to ask me anything on GitHub. If you have something quick and easy, just ping me on Twitter.
 
@@ -44,15 +44,15 @@ bookmarks:
     - name: Open source
       links: 
         - title: Dotfiles
-          permalink: https://github.com/kosalanuwan/dotfiles#readme
+          permalink: https://github.com/therealkosala/dotfiles#readme
           excerpt: >- # this can be a bit longer so write it as you wish.
             Personal dotfiles and bash scripts for setting up fresh install of macOS.
         - title: Dev Container templates
-          permalink: https://github.com/kosalanuwan?tab=repositories&q=devcontainers&type=&language=
+          permalink: https://github.com/therealkosala?tab=repositories&q=devcontainers&type=&language=
           excerpt: >- # this can be a bit longer so write it as you wish.
             Quick-starter templates and its prerequisites for use of development containers with VS Code and GitHub Codespaces.
         - title: RESThooks
-          permalink: https://github.com/kosalanuwan?tab=repositories&q=resthooks&type=&language=
+          permalink: https://github.com/therealkosala?tab=repositories&q=resthooks&type=&language=
           excerpt: >- # this can be a bit longer so write it as you wish.
             Demo code of the RESThooks Messaging Architecture for a Cocktails ordering backend.
         - title: Cucumber-Protractor templates
@@ -60,7 +60,7 @@ bookmarks:
           excerpt: >- # this can be a bit longer so write it as you wish.
             Minimalistic sample projects to kick start Gherkin style E2E tests written in Screenplay pattern with Cucumber.js for BDD.
         - title: Vanilla JS snippets
-          permalink: https://github.com/kosalanuwan/vanilla-js-snippets/#readme
+          permalink: https://github.com/therealkosala/vanilla-js-snippets/#readme
           excerpt: >- # this can be a bit longer so write it as you wish.
             Library of helper functions and boilerplate code written with native javascript and browser APIs.
 
