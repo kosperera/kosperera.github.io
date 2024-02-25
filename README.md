@@ -1,6 +1,6 @@
 # @TheRealKosala
 
-[<img src="http://ghchart.rshah.org/AF0000/therealkosala" alt="@TheRealKosala's GitHub contributions" width="100%" />][github-overview]
+[<img src="http://ghchart.rshah.org/AF0000/therealkosala" alt="@KosPerera's GitHub contributions" width="100%" />][github-overview]
 
 [GitHub][github] use to be my unicorn and now it is **_my bitch_**. I interact with GitHub daily, so why not use it for everyday things? It makes more sense, at least for me. I'm that nerd :nerd_face:
 
@@ -21,9 +21,9 @@ You can find more about my work on [my GitHub Page][site].
 
 
 
-[site]: https://therealkosala.github.io
+[site]: https://kosperera.github.io
 [github]: https://github.com
-[github-overview]: https://github.com/therealkosala
+[github-overview]: https://github.com/kosperera
 [vscode]: https://code.visualstudio.com/
 [jekyll]: https://
 [pages-devcontainers]: https://github.com/alertbox/try-gh-pages/#readme
@@ -37,4 +37,3 @@ You can find more about my work on [my GitHub Page][site].
 ## License
 
 The devcontainer is available as open source under the terms of the [MIT License](LICENSE).
-

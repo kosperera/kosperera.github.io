@@ -14,7 +14,7 @@ encoding: utf-8
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -25,8 +25,8 @@ encoding: utf-8
 # in the templates via {{ site.myvariable }}.
 
 baseurl: ""
-url: https://therealkosala.github.io
-repository: therealkosala/therealkosala.github.io
+url: https://kosperera.github.io
+repository: kosperera/kosperera.github.io
 
 # Defaults
 defaults:
@@ -48,7 +48,7 @@ plugins:
   - jemoji
   - jekyll-paginate
   - jekyll-feed
-  - jekyll-sitemap   
+  - jekyll-sitemap
   - jekyll-gist
   - jekyll-redirect-from
 whitelist:

@@ -1,9 +1,9 @@
-title: TheRealKosala
-tagline: A long-term Hubber
+title: KosPerera
+tagline: Product/Platform Engineer
 description: >- # tagline can be a bit lengthy sometimes
   Product / Platform Engineer. JavaScript C# Serverless. Developer Advocate. Currently <a href="https://www.virtusa.com/">@Virtusa</a>. Long-term Hubber.
 
-bugs: https://github.com/therealkosala/ama/issues/new?assignees=&labels=&template=bug_report.md&title=
+bugs: https://github.com/kosperera/ama/issues/new?assignees=&labels=&template=bug_report.md&title=
 date_format: "%b %-d, %Y"
 
 # Feature flags
@@ -11,20 +11,20 @@ show_post_meta: true
 show_social_links: true
 
 # Site author
-author: 
+author:
   name: Kosala (Nuwan) Perera
   avatar: https://avatars1.githubusercontent.com/u/958227?s=460&u=9b166f138e17fd8a8a60177dbbaa79deff890ac6&v=4
-  email: kosala.nuwan@gmail.com
+  email: therealkosala@gmail.com
   # Social
-  github: therealkosala
-  twitter: therealkosala
-  linkedin: therealkosala
-  blog: therealkosala
+  github: kosperera
+  twitter: kosperera
+  linkedin: kosperera
+  blog: kosperera
 
-bookmarks: 
+bookmarks:
   top5:
     - title: Articles
-      permalink: https://dev.to/@therealkosala
+      permalink: https://dev.to/@kosperera
       excerpt: >- # this can be a bit longer so write it as you wish.
         These articles, blikies, or whatever, their content, and opinions are my own, aggregated from my developer journal notes.
     - title: Talks
@@ -36,23 +36,23 @@ bookmarks:
       excerpt: >- # this can be a bit longer so write it as you wish.
         Attempts of fiction writing around the plots I've always fantasized. This is how it all should have happened.
     - title: AMA
-      permalink: https://github.com/therealkosala/ama/#readme
+      permalink: https://github.com/kosperera/ama/#readme
       excerpt: >- # this can be a bit longer so write it as you wish.
         Feel free to ask me anything on GitHub. If you have something quick and easy, just ping me on Twitter.
 
   sections:
     - name: Open source
-      links: 
+      links:
         - title: Dotfiles
-          permalink: https://github.com/therealkosala/dotfiles#readme
+          permalink: https://github.com/kosperera/dotfiles#readme
           excerpt: >- # this can be a bit longer so write it as you wish.
             Personal dotfiles and bash scripts for setting up fresh install of macOS.
         - title: Dev Container templates
-          permalink: https://github.com/therealkosala?tab=repositories&q=devcontainers&type=&language=
+          permalink: https://github.com/kosperera?tab=repositories&q=devcontainers&type=&language=
           excerpt: >- # this can be a bit longer so write it as you wish.
             Quick-starter templates and its prerequisites for use of development containers with VS Code and GitHub Codespaces.
         - title: RESThooks
-          permalink: https://github.com/therealkosala?tab=repositories&q=resthooks&type=&language=
+          permalink: https://github.com/kosperera?tab=repositories&q=resthooks&type=&language=
           excerpt: >- # this can be a bit longer so write it as you wish.
             Demo code of the RESThooks Messaging Architecture for a Cocktails ordering backend.
         - title: Cucumber-Protractor templates
@@ -60,10 +60,9 @@ bookmarks:
           excerpt: >- # this can be a bit longer so write it as you wish.
             Minimalistic sample projects to kick start Gherkin style E2E tests written in Screenplay pattern with Cucumber.js for BDD.
         - title: Vanilla JS snippets
-          permalink: https://github.com/therealkosala/vanilla-js-snippets/#readme
+          permalink: https://github.com/kosperera/vanilla-js-snippets/#readme
           excerpt: >- # this can be a bit longer so write it as you wish.
             Library of helper functions and boilerplate code written with native javascript and browser APIs.
-
 
     - name: BOT & ML
       links:
@@ -91,17 +90,16 @@ bookmarks:
           excerpt: >- # this can be a bit longer so write it as you wish.
             Unofficial quick start templates, plugins, and extensions for Docsify.js
 
-
 # Book outlines
 books:
   - key: c8209c92bd8e4780b61c42b0ce08b7e8
     title: "Untitled Story"
     excerpt: >- # this can be a bit longer so write it as you wish.
-      An attempt for fiction writing based on the characters appearing in the comic books published by 
-      Marvel and DC and a couple of more TV shows. Oh, by the way, this has vivid graphics that are darker than Nolan’s version, 
+      An attempt for fiction writing based on the characters appearing in the comic books published by
+      Marvel and DC and a couple of more TV shows. Oh, by the way, this has vivid graphics that are darker than Nolan’s version,
       and no one, seriously, no one wears spandex.<br><br>
-      
-      The story doesn’t have a beginning nor end. And, is based on Naïve Narrator’s perspective. 
+
+      The story doesn’t have a beginning nor end. And, is based on Naïve Narrator’s perspective.
       The author narrates everything as it happens when it happens.
     date_started: 2015-08-01
     genre: [Fantasy, YA]
@@ -111,15 +109,15 @@ talks:
   - key: 8f84d82bb95945948b59b50e7e23eab5
     title: Running Azure Serverless
     excerpt: >- # this can be a bit longer so write it as you wish.
-      A brief walkthru on how I select Azure Services, especially for a Serverless Backend, 
+      A brief walkthru on how I select Azure Services, especially for a Serverless Backend,
       based on a hypothetical Cocktail Bar.
     date_presented: 2020-2-10
 
   - key: 9919974691fd4244932f84fa378cffd6
     title: Mobile App Release Engineering
     excerpt: >- # this can be a bit longer so write it as you wish.
-      A few tips and tricks about how I shape the offshore teams, what release engineering strategy to use, and 
-      how Dark launching and Feature toggling are implemented to overcome some of the challenges when developing 
+      A few tips and tricks about how I shape the offshore teams, what release engineering strategy to use, and
+      how Dark launching and Feature toggling are implemented to overcome some of the challenges when developing
       cross-platform mobile apps.
     date_presented: 2017-11-1
     hosted_by:
@@ -130,7 +128,7 @@ talks:
   - key: 794d09f386624aaf8e7dc65896ae0539
     title: Design Sprint in 2 Days
     excerpt: >- # this can be a bit longer so write it as you wish.
-      With the hype of entrepreneurship and tech startups, a workshop was designed for fresh grads and startups 
+      With the hype of entrepreneurship and tech startups, a workshop was designed for fresh grads and startups
       with a limited audience to have a taste of Google's Design Sprints combined with Eric Ries's Lean Startup.
     date_presented: 2017-6-1
     slide: 5
@@ -142,15 +140,15 @@ talks:
   - key: 3609b4c2e86845bca1cadc8a9860bbaf
     title: InnerSourcing
     excerpt: >- # this can be a bit longer so write it as you wish.
-      A brief walkthru on InnerSource based on surveys done by Open Source Initiative and InnerSource Commons, to convince enterprises 
+      A brief walkthru on InnerSource based on surveys done by Open Source Initiative and InnerSource Commons, to convince enterprises
       to adopt lessons learned from open source engineering practices and apply them to the way enterprise products are being engineered internally.
     date_presented: 2016-11-5
 
   - key: 0865527f9dc64794bbfd93a7fcfcf046
     title: Refactoring Smelly Code
     excerpt: >- # this can be a bit longer so write it as you wish.
-      Originally, this was intended to be a series of blogposts demoing smelly code and refactoring patterns that 
-      can be improved to reduce the number of WTFs in the code. Later became a tech talk with hands-on demos before 
+      Originally, this was intended to be a series of blogposts demoing smelly code and refactoring patterns that
+      can be improved to reduce the number of WTFs in the code. Later became a tech talk with hands-on demos before
       presented at developer forums in Colombo, Sri Lanka.
     date_presented: 2016-5-1
     hosted_by:
@@ -161,8 +159,8 @@ talks:
   - key: 41ec5979e2144d75b7108735019653f1
     title: Lean UX for Women Techmakers
     excerpt: >- # this can be a bit longer so write it as you wish.
-      Originally intended to be a design to deploy workshop sharing tips and tricks to practice lean user experience 
-      and design thinking based on various startups and design-driven projects within big companies. 
+      Originally intended to be a design to deploy workshop sharing tips and tricks to practice lean user experience
+      and design thinking based on various startups and design-driven projects within big companies.
       Later invited to do somewhat similar for Google developer community.
     date_presented: 2015-3-9
     hosted_by:
@@ -173,8 +171,8 @@ talks:
   - key: 5cb9d9707992416ca8fcf2d89b81cd40
     title: X-platform Mobile Apps
     excerpt: >- # this can be a bit longer so write it as you wish.
-      Intended to be a workshop on x-platform mobile app engineering with a couple of hands-on demos building 
-      an Ionic app called Selfystic for state universities and later extent to corporate tech forums, and meetups 
+      Intended to be a workshop on x-platform mobile app engineering with a couple of hands-on demos building
+      an Ionic app called Selfystic for state universities and later extent to corporate tech forums, and meetups
       in Colombo, Sri Lanka.
     date_presented: 2015-1-1
     slide: 2

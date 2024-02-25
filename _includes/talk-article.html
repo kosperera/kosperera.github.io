@@ -6,6 +6,12 @@
     {% include speaker-deck.html speaker_deck=speaker_deck %}
     <p>{{ speaker_deck.excerpt }}</p>
     {% if speaker_deck.hosted_by %}
-        <p>Presented at <a href="{{ speaker_deck.hosted_by.website }}">{{ speaker_deck.hosted_by.name }}</a> in {{ speaker_deck.hosted_by.venue }}.</p>
+    <p>
+        Presented at
+        <a href="{{ speaker_deck.hosted_by.website }}"
+            >{{ speaker_deck.hosted_by.name }}</a
+        >
+        in {{ speaker_deck.hosted_by.venue }}.
+    </p>
     {% endif %}
 </article>
