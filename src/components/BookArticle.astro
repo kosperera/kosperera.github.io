@@ -1,0 +1,14 @@
+---
+import SpeakerDeck from "./SpeakerDeck.astro";
+
+const { title, date_started, genre, excerpt } = Astro.props;
+---
+<article>
+    <h3>{{ title }}</h3>
+    <h4>{{ date_started | date: "%B %Y" }}</h4>
+    <SpeakerDeck />
+    <p>
+    <h5>{{ genre | sort | join: ', '}}</h5>
+    </p>
+    <p>{{ excerpt }}</p>
+</article>

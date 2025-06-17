@@ -1,3 +1,11 @@
+# generated types
+.astro/
+# environment variables
+.env.production
+
+# macOS-specific files
+.DS_Store
+
 # Logs
 logs
 *.log

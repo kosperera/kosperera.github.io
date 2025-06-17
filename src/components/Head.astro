@@ -1,0 +1,27 @@
+---
+import "../styles/global.scss";
+
+import { ClientRouter } from "astro:transitions";
+const site = Astro.site ?? Astro.url;
+const defaultCanonical = new URL(Astro.url.pathname + Astro.url.search, site);
+const { canonical = defaultCanonical, frontmatter } = Astro.props;
+---
+
+<meta charset="utf-8" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<meta name="author" content={frontmatter.author} />
+<meta name="description" content={frontmatter.description} />
+<meta name="robots" content="all" />
+<link rel="sitemap" href="/sitemap-index.xml" />
+
+<title>{frontmatter.title} - {frontmatter.description}</title>
+
+<link rel="canonical" href={canonical || defaultCanonical.href} />
+
+<!-- Fonts -->
+
+<!-- Icons -->
+<link rel="shortcut icon" href="/favicon.ico" />
+
+<ClientRouter />

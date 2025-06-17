@@ -1,0 +1,412 @@
+@charset 'UTF-8';
+
+/*
+ * Variables
+ */
+
+:root {
+    --charcoal-200: #93a1b0;
+    --charcoal-300: #748494;
+    --charcoal-400: #556575;
+    --charcoal-500: #405261;
+    --charcoal-600: #314351;
+    --charcoal-700: #253642;
+    --charcoal-800: #1d2b36;
+    --charcoal-900: #1d2b36;
+    --charcoal-1000: #1d2b36;
+    --charcoal-1100: #1d2b36;
+    --charcoal-1200: #1d2b36;
+    --charcoal-accent: var(--charcoal-500);
+    --charcoal-default: var(--charcoal-500);
+
+    --gray-0: #f8f9fa;
+    --gray-1: #f1f3f5;
+    --gray-2: #e9ecef;
+    --gray-3: #dee2e6;
+    --gray-4: #ced4da;
+    --gray-5: #adb5bd;
+    --gray-6: #868e96;
+    --gray-7: #495057;
+    --gray-8: #343a40;
+    --gray-9: #212529;
+
+    --black: #000;
+
+    --teal-0: #e6fcf5;
+    --teal-1: #c3fae8;
+    --teal-2: #96f2d7;
+    --teal-3: #63e6be;
+    --teal-4: #38d9a9;
+    --teal-5: #20c997;
+    --teal-6: #12b886;
+    --teal-7: #0ca678;
+    --teal-8: #099268;
+    --teal-9: #087f5b;
+
+    --orange-0: #fff4e6;
+    --orange-1: #ffe8cc;
+    --orange-2: #ffd8a8;
+    --orange-3: #ffc078;
+    --orange-4: #ffa94d;
+    --orange-5: #ff922b;
+    --orange-6: #fd7e14;
+    --orange-7: #f76707;
+    --orange-8: #e8590c;
+    --orange-9: #d9480f;
+
+    --red-0: #fff5f5;
+    --red-1: #ffe3e3;
+    --red-2: #ffc9c9;
+    --red-3: #ffa8a8;
+    --red-4: #ff8787;
+    --red-5: #ff6b6b;
+    --red-6: #fa5252;
+    --red-7: #f03e3e;
+    --red-8: #e03131;
+    --red-9: #c92a2a;
+
+    --background: var(--gray-1);
+    --paragraph: var(--charcoal-1200);
+    --paragraph-text: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif;
+    --paragraph-text-weight: 200;
+    --link: var(--red-8);
+    --stroke: var(--gray-3);
+
+    --headline: var(--charcoal-1200);
+    --headline-link: var(--red-8);
+
+    --highlight-background: var(--charcoal-accent);
+    --highlight-paragraph: var(--gray-0);
+
+    --quote: var(--charcoal-400);
+    --quote-stroke: var(--red-6);
+
+    --gutter: 1.5rem;
+
+    /*
+     * Syntax Highlighting
+     */
+
+    --code-background: var(--charcoal-400);
+    --code-paragraph: var(--gray-0);
+    --code-paragraph-text: 'JetBrains Mono', 'Courier New', monospace !important;
+    --code-background-secondary: var(--charcoal-400);
+}
+
+.zebra-orange {
+    color: var(--orange-6);
+}
+
+.zebra-red {
+    color: var(--red-8);
+}
+
+/*
+ * Scaffolding and type
+ */
+
+html {
+    font-family: var(--paragraph-text);
+    font-size: 16px;
+}
+
+@media (min-width: 40em) {
+    html {
+        font-size: 20px;
+    }
+}
+
+body {
+    padding: 2rem var(--gutter);
+    margin: 0;
+    line-height: 1.5;
+    color: var(--paragraph);
+    background-color: var(--background);
+    font-weight: var(--paragraph-text-weight);
+    text-rendering: optimizeSpeed;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 0.25rem;
+}
+
+a {
+    color: var(--paragraph);
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    text-decoration-skip-ink: auto;
+}
+
+a:hover {
+    color: var(--link);
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 300;
+    line-height: 1.1;
+    color: var(--headline);
+    letter-spacing: -0.025rem;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+p+h1,
+p+h2,
+p+h3,
+ul+h1,
+ul+h2,
+ul+h3,
+ol+h1,
+ol+h2,
+ol+h3 {
+    margin-top: 1.5rem;
+}
+
+strong {
+    font-weight: bold;
+    // color: var(--heading-color);
+}
+
+mark {
+    color: var(--highlight-paragraph);
+    background-color: var(--highlight-background);
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-left: 1.5em;
+}
+
+.body li {
+    margin-bottom: 0.25rem;
+}
+
+ul ul {
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+hr {
+    width: auto;
+    height: 1px;
+    margin: 2.5rem 0;
+    background-color: var(--stroke);
+    border: 0;
+}
+
+blockquote {
+    position: relative;
+    padding: 0 0 0 1.5rem;
+    margin: 0 2rem 1rem -2rem;
+    // color: var(--quote);
+    font-style: italic;
+    border-left: 0.5rem solid var(--quote-stroke);
+}
+
+// Footnote number within body text
+a[href^="#fn:"],
+// Back to footnote link
+a[href^="#fnref:"] {
+    display: inline-block;
+    margin-left: 0.1rem;
+    outline: medium none;
+}
+
+/* Tighten up margin on last items */
+p:last-child,
+ul:last-child,
+blockquote:last-child {
+    margin-bottom: 0;
+}
+
+/*
+ * The Grid
+ */
+
+.container {
+    max-width: 36rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+::selection {
+    background: var(--highlight-background);
+    color: var(--highlight-paragraph);
+}
+
+/*
+ * Code
+ */
+
+code,
+pre {
+    font-family: var(--code-paragraph-text);
+    font-size: 85%;
+    font-style: normal;
+    // font-weight: normal;
+    color: var(--code-paragraph);
+}
+
+:not(pre)>code {
+    display: inline-block;
+    background-color: var(--code-background-secondary);
+    color: var(--code-paragraph);
+    border: 0.5px solid var(--code-background-secondary);
+    border-radius: 0.25rem;
+    padding: 0.01em 0.5em;
+    margin: 0 2px;
+}
+
+@media (max-width: 30em) {
+    code {
+        word-break: break-word;
+    }
+}
+
+pre {
+    display: block;
+    margin: 0 0 1rem;
+}
+
+pre.highlight {
+    margin-right: calc(var(--gutter) * -1);
+    margin-bottom: 1rem;
+    margin-left: calc(var(--gutter) * -1);
+    padding: 0.75rem var(--gutter);
+    overflow: auto;
+    background-color: var(--code-background);
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+@media (min-width: 34em) {
+    pre.highlight {
+        margin-right: 0;
+        margin-left: 0;
+        padding-left: calc(var(--gutter) - 0.25rem);
+        border-left: 0.25rem solid var(--code-background);
+        border-radius: 0.25rem;
+    }
+}
+
+.gist .gist-file {
+    font-family: var(--code-paragraph-text);
+}
+
+.gist .gist-file .gist-data {
+    font-size: 85% !important;
+    line-height: 1.4;
+}
+
+.gist .markdown-body {
+    padding: 15px;
+}
+
+.gist .highlight {
+    margin-bottom: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.gist pre {
+    padding: 0;
+    background-color: transparent;
+}
+
+.gist code {
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+@media (min-width: 34em) {
+    header {
+        padding-top: 1rem;
+        max-width: 62%;
+    }
+}
+
+h1 {
+    >a {
+        color: var(--paragraph);
+    }
+
+    >a:hover {
+        color: var(--link);
+    }
+
+    span {
+        display: inline-block;
+        font-weight: 300;
+    }
+}
+
+.lead {
+    font-size: 1.25rem;
+    line-height: 1.3;
+    color: var(--headline);
+
+    span {
+        display: inline-block;
+        font-weight: 300;
+    }
+}
+
+.links {
+    a {
+        font-size: 1.5rem;
+        margin-right: 0.5rem;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+}
+
+footer {
+    margin-top: 3rem;
+    font-size: 80%;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}

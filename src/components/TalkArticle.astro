@@ -1,0 +1,17 @@
+---
+import SpeakerDeck from "./SpeakerDeck.astro";
+
+const { key, slide, title, date_presented, excerpt, hosted_by } = Astro.props;
+---
+
+<article>
+    <h3>{title}</h3>
+    <h4>{date_presented}</h4>
+    <SpeakerDeck key slide allow_fullscreen />
+    <p>{excerpt}</p>
+    <p>
+        Presented at
+        <a href={hosted_by.website}>{hosted_by.name}</a>
+        in {hosted_by.venue}.
+    </p>
+</article>
