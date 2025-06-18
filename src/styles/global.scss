@@ -5,80 +5,43 @@
  */
 
 :root {
-    --charcoal-200: #93a1b0;
-    --charcoal-300: #748494;
-    --charcoal-400: #556575;
-    --charcoal-500: #405261;
-    --charcoal-600: #314351;
-    --charcoal-700: #253642;
-    --charcoal-800: #1d2b36;
-    --charcoal-900: #1d2b36;
-    --charcoal-1000: #1d2b36;
-    --charcoal-1100: #1d2b36;
-    --charcoal-1200: #1d2b36;
-    --charcoal-accent: var(--charcoal-500);
-    --charcoal-default: var(--charcoal-500);
-
-    --gray-0: #f8f9fa;
-    --gray-1: #f1f3f5;
-    --gray-2: #e9ecef;
-    --gray-3: #dee2e6;
-    --gray-4: #ced4da;
-    --gray-5: #adb5bd;
-    --gray-6: #868e96;
-    --gray-7: #495057;
-    --gray-8: #343a40;
-    --gray-9: #212529;
-
     --black: #000;
 
-    --teal-0: #e6fcf5;
-    --teal-1: #c3fae8;
-    --teal-2: #96f2d7;
-    --teal-3: #63e6be;
-    --teal-4: #38d9a9;
-    --teal-5: #20c997;
-    --teal-6: #12b886;
-    --teal-7: #0ca678;
-    --teal-8: #099268;
-    --teal-9: #087f5b;
+    --gray-0: #0b090a;
+    --gray-1: #EDF2F4;
+    --gray-2: #DEE2E6;
+    --gray-3: #8D99AE;
+    --gray-4: #ADB5BD;
+    --gray-5: #ADB5BD;
+    --gray-6: #6C757D;
+    --gray-7: #495057;
+    --gray-8: #343A40;
+    --gray-9: #161a1d;
 
-    --orange-0: #fff4e6;
-    --orange-1: #ffe8cc;
-    --orange-2: #ffd8a8;
-    --orange-3: #ffc078;
-    --orange-4: #ffa94d;
-    --orange-5: #ff922b;
     --orange-6: #fd7e14;
     --orange-7: #f76707;
     --orange-8: #e8590c;
     --orange-9: #d9480f;
 
-    --red-0: #fff5f5;
-    --red-1: #ffe3e3;
-    --red-2: #ffc9c9;
-    --red-3: #ffa8a8;
-    --red-4: #ff8787;
-    --red-5: #ff6b6b;
-    --red-6: #fa5252;
-    --red-7: #f03e3e;
-    --red-8: #e03131;
-    --red-9: #c92a2a;
+    --red-6: #e5383b;
+    --red-7: #FF2424;
+    --red-8: #FF0000;
+    --red-9: #ba181b;
 
     --background: var(--gray-1);
-    --paragraph: var(--charcoal-1200);
+    --paragraph: var(--gray-0);
     --paragraph-text: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif;
     --paragraph-text-weight: 200;
     --link: var(--red-8);
-    --stroke: var(--gray-3);
+    --stroke: var(--gray-2);
 
-    --headline: var(--charcoal-1200);
-    --headline-link: var(--red-8);
+    --headline: var(--paragraph);
+    --headline-link: var(--link);
 
-    --highlight-background: var(--charcoal-accent);
-    --highlight-paragraph: var(--gray-0);
+    --highlight-background: var(--paragraph);
+    --highlight-paragraph: var(--background);
 
-    --quote: var(--charcoal-400);
+    --quote: var(--paragraph);
     --quote-stroke: var(--red-6);
 
     --gutter: 1.5rem;
@@ -87,10 +50,10 @@
      * Syntax Highlighting
      */
 
-    --code-background: var(--charcoal-400);
-    --code-paragraph: var(--gray-0);
+    --code-background: var(--gray-2);
+    --code-paragraph: var(--paragraph);
     --code-paragraph-text: 'JetBrains Mono', 'Courier New', monospace !important;
-    --code-background-secondary: var(--charcoal-400);
+    --code-background-secondary: var(--code-background);
 }
 
 .zebra-orange {
@@ -99,6 +62,24 @@
 
 .zebra-red {
     color: var(--red-8);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: var(--gray-0);
+        --paragraph: var(--gray-1);
+        --link: var(--red-6);
+        --stroke: var(--gray-9);
+
+        --quote: var(--paragraph);
+        --quote-stroke: var(--red-9);
+
+        /*
+         * Syntax Highlighting
+         */
+
+        --code-background: var(--gray-8);
+    }
 }
 
 /*
@@ -280,7 +261,7 @@ pre {
 
 :not(pre)>code {
     display: inline-block;
-    background-color: var(--code-background-secondary);
+    background-color: var(--code-background);
     color: var(--code-paragraph);
     border: 0.5px solid var(--code-background-secondary);
     border-radius: 0.25rem;
