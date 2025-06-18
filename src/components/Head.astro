@@ -1,7 +1,12 @@
 ---
 import "../styles/global.scss";
+import "../styles/fa/css/fontawesome.css";
+import "../styles/fa/css/brands.css";
+import "../styles/fa/css/regular.css";
+import "../styles/fa/css/solid.css";
 
 import { ClientRouter } from "astro:transitions";
+
 const site = Astro.site ?? Astro.url;
 const defaultCanonical = new URL(Astro.url.pathname + Astro.url.search, site);
 const { canonical = defaultCanonical, frontmatter } = Astro.props;

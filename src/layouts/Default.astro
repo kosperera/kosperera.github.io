@@ -1,4 +1,5 @@
 ---
+
 import Head from "../components/Head.astro";
 import Footer from "../components/Footer.astro";
 import Masthead from "../components/Masthead.astro";
@@ -12,7 +13,6 @@ const { ...head } = Astro.props;
     </head>
 
     <body>
-        <div class="glow"></div>
         <div class="container">
             <Masthead />
         </div>
@@ -24,11 +24,5 @@ const { ...head } = Astro.props;
         <div class="container">
             <Footer />
         </div>
-
-        <script
-            is:inline
-            src="https://kit.fontawesome.com/4c3612d4b1.js"
-            crossorigin="anonymous"
-            defer></script>
     </body>
 </html>
