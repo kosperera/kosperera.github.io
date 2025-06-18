@@ -15,8 +15,12 @@ const { canonical = defaultCanonical, frontmatter } = Astro.props;
 <meta charset="utf-8" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<meta name="generator" content={Astro.generator} />
 <meta name="author" content={frontmatter.author} />
-<meta name="description" content={frontmatter.description} />
+<meta
+    name="description"
+    content={`${frontmatter.title} - ${frontmatter.description}`}
+/>
 <meta name="robots" content="all" />
 <link rel="sitemap" href="/sitemap-index.xml" />
 

@@ -1,5 +1,6 @@
 ---
 layout: ../layouts/Default.astro
+author: Kosala (KP) Perera
 title: 'About @KosPerera'
 description: Get to know more about me.
 ---
