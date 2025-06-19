@@ -29,7 +29,7 @@
     --red-9: #ba181b;
 
     --background: var(--gray-1);
-    --paragraph: var(--gray-0);
+    --paragraph: var(--gray-9);
     --paragraph-text: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif;
     --paragraph-text-weight: 200;
     --link: var(--red-8);
@@ -56,18 +56,10 @@
     --code-background-secondary: var(--code-background);
 }
 
-.zebra-orange {
-    color: var(--orange-6);
-}
-
-.zebra-red {
-    color: var(--red-8);
-}
-
 @media (prefers-color-scheme: dark) {
     :root {
         --background: var(--gray-0);
-        --paragraph: var(--gray-1);
+        --paragraph: var(--gray-2);
         --link: var(--red-6);
         --stroke: var(--gray-9);
 
@@ -82,6 +74,14 @@
     }
 }
 
+.zebra-orange {
+    color: var(--orange-6);
+}
+
+.zebra-red {
+    color: var(--red-8);
+}
+
 /*
  * Scaffolding and type
  */
@@ -93,7 +93,7 @@ html {
 
 @media (min-width: 40em) {
     html {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
