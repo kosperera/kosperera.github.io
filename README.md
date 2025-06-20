@@ -1,19 +1,17 @@
-<h1 align="center">@KosPerera</h1>
+# @KosPerera
 
 > [!Note]
 >
-> Originally, this was a done using Jekyll. See [kosperera.github](https://github.com/kosperera/kosperera.github) repo to learn more.
+> Originally, this was done using Jekyll. See [kosperera.github](https://github.com/kosperera/kosperera.github) repo to learn more.
 
 In case you were wondering, the content in this repo is:
 
-- Designed and coded on a MacBook in Georgia, US.
-- Coded with Visual Studio Code.
-- Build on Astro.js, a static site generator on a Bun.js dev container.
-- Published via GitHub Actions.
-- Hosted on GitHub Pages.
-- Originally a flavor of the Zebra Snoose theme.
-
-And this README, amongst the rest of the markdown is written using Typora app. You can find more about me and my work on [my site](https://kosperera.github.io).
+- Design and coded on an MacBook in Georgia, US.
+- Coded with [Visual Studio Code](https://code.visualstudio.com) and [Typora](https://support.typora.io/Typora-on-macOS/).
+- Built with [Astro]() on [Bun](https://github.com/alertbox/try-bun/). Previousely on [Jekyll](https://github.com/kosperera/kosperera.github/).
+- Published via [GitHub Actions](./.github/workflows/deploy.yaml).
+- Hosted on [GitHub Pages]().
+- Originally a flavor of the [Zebra Snoose](https://github.com/alertbox/zebra-snooze) theme.
 
 /KP
 
