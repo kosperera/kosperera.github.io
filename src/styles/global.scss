@@ -10,6 +10,7 @@
     --color-scarlet: #ff2400;
     --color-ivory: #dee2e6;
     --color-obsidian: #495057;
+    --color-kohl: #2e3039;
     --color-chalk: #f0f0f0;
     --color-jet: #16181b;
 
@@ -24,8 +25,8 @@
     --link-border-color: var(--color-ivory);
     --link-text-weight: 400;
 
-    --highlight-background-color: var(--paragraph-color);
-    --highlight-paragraph-color: var(--background-color);
+    --highlight-background-color: var(--color-ink);
+    --highlight-paragraph-color: var(--color-snow);
 
     --quote-stroke-color: var(--color-scarlet);
     --stroke-color: var(--color-ivory);
@@ -49,9 +50,12 @@
         --paragraph-color: var(--color-ivory);
 
         --link-color: var(--color-snow);
-        --link-border-color: var(--color-obsidian);
+        --link-border-color: var(--color-kohl);
 
-        --stroke-color: var(--color-obsidian);
+        --highlight-background-color: var(--color-snow);
+        --highlight-paragraph-color: var(--color-ink);
+
+        --stroke-color: var(--color-kohl);
 
         /*
          * Syntax Highlighting
