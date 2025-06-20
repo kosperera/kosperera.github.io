@@ -1,5 +1,4 @@
 ---
-
 import Head from "../components/Head.astro";
 import Footer from "../components/Footer.astro";
 import Masthead from "../components/Masthead.astro";
@@ -16,11 +15,11 @@ const { ...head } = Astro.props;
         <div class="container">
             <Masthead />
         </div>
-        <hr />
-        <div class="container">
+        <hr class="full-width" />
+        <div class="container page">
             <slot />
         </div>
-        <hr />
+        <hr class="full-width" />
         <div class="container">
             <Footer />
         </div>

@@ -5,18 +5,19 @@
  */
 
 :root {
-    --black: #000;
+    --color-night: #000;
+    --color-snow: #fff;
 
     --gray-0: #0b090a;
-    --gray-1: #EDF2F4;
+    --gray-1: #f0f0f0;
     --gray-2: #DEE2E6;
     --gray-3: #8D99AE;
     --gray-4: #ADB5BD;
     --gray-5: #ADB5BD;
     --gray-6: #6C757D;
     --gray-7: #495057;
-    --gray-8: #343A40;
-    --gray-9: #161a1d;
+    --gray-8: rgba(255, 255, 255, .1);
+    --gray-9: #16181b;
 
     --orange-6: #fd7e14;
     --orange-7: #f76707;
@@ -28,21 +29,21 @@
     --red-8: #FF0000;
     --red-9: #ba181b;
 
-    --background: var(--gray-1);
-    --paragraph: var(--gray-9);
+    --background-color: var(--gray-2);
+    --heading-color: var(--color-night);
+    --paragraph-color: var(--gray-7);
     --paragraph-text: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif;
-    --paragraph-text-weight: 200;
-    --link: var(--red-8);
-    --stroke: var(--gray-2);
+    --paragraph-text-weight: 300;
 
-    --headline: var(--paragraph);
-    --headline-link: var(--link);
+    --link-color: var(--color-night);
+    --link-color-hover: var(--link-color);
+    --link-border-color: var(--gray-4);
 
-    --highlight-background: var(--paragraph);
-    --highlight-paragraph: var(--background);
+    --highlight-background-color: var(--paragraph-color);
+    --highlight-paragraph-color: var(--background-color);
 
-    --quote: var(--paragraph);
-    --quote-stroke: var(--red-6);
+    --quote-stroke-color: var(--red-6);
+    --stroke-color: var(--gray-4);
 
     --gutter: 1.5rem;
 
@@ -50,27 +51,29 @@
      * Syntax Highlighting
      */
 
-    --code-background: var(--gray-2);
-    --code-paragraph: var(--paragraph);
+    --code-background-color: var(--gray-1);
+    --code-paragraph-color: var(--paragraph-color);
     --code-paragraph-text: 'JetBrains Mono', 'Courier New', monospace !important;
-    --code-background-secondary: var(--code-background);
+    --code-background-color-secondary: var(--code-background-color);
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: var(--gray-0);
-        --paragraph: var(--gray-2);
-        --link: var(--red-6);
-        --stroke: var(--gray-9);
+        --background-color: var(--gray-9);
+        --heading-color: var(--color-snow);
+        --paragraph-color: var(--gray-2);
 
-        --quote: var(--paragraph);
-        --quote-stroke: var(--red-9);
+        --link-color: var(--color-snow);
+        --link-border-color: var(--gray-7);
+
+        --quote-stroke-color: var(--red-9);
+        --stroke-color: var(--gray-8);
 
         /*
          * Syntax Highlighting
          */
 
-        --code-background: var(--gray-8);
+        --code-background-color: var(--gray-8);
     }
 }
 
@@ -88,12 +91,12 @@
 
 html {
     font-family: var(--paragraph-text);
-    font-size: 16px;
+    font-size: 14px;
 }
 
 @media (min-width: 40em) {
     html {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 
@@ -101,8 +104,8 @@ body {
     padding: 2rem var(--gutter);
     margin: 0;
     line-height: 1.5;
-    color: var(--paragraph);
-    background-color: var(--background);
+    color: var(--paragraph-color);
+    background-color: var(--background-color);
     font-weight: var(--paragraph-text-weight);
     text-rendering: optimizeSpeed;
     -moz-osx-font-smoothing: grayscale;
@@ -120,15 +123,28 @@ img {
 }
 
 a {
-    color: var(--paragraph);
+    font-weight: inherit;
+    line-height: inherit;
+    color: var(--link-color);
     text-decoration: none;
-    transition: all 0.2s ease-in-out;
+    transition: all .2s ease-in-out;
     text-decoration-skip-ink: auto;
+    text-underline-offset: .25rem;
+
+    &:hover {
+        color: var(--link-color-hover)
+    }
 }
 
-a:hover {
-    color: var(--link);
+.page a {
+    // font-weight: 500;
     text-decoration: underline;
+    text-decoration-color: var(--link-border-color);
+    text-underline-offset: .25rem;
+
+    &:hover {
+        text-decoration-color: var(--link-color-hover)
+    }
 }
 
 h1,
@@ -141,22 +157,22 @@ h6 {
     margin-bottom: 0.5rem;
     font-weight: 300;
     line-height: 1.1;
-    color: var(--headline);
+    color: var(--heading-color);
     letter-spacing: -0.025rem;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 600;
 }
 
 h2 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 500;
 }
 
 h3 {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: 400;
 }
 
@@ -178,41 +194,50 @@ strong {
 }
 
 mark {
-    color: var(--highlight-paragraph);
-    background-color: var(--highlight-background);
+    color: var(--highlight-paragraph-color);
+    background-color: var(--highlight-background-color);
 }
 
 ul,
 ol {
     margin-top: 0;
     margin-bottom: 1rem;
-    padding-left: 1.5em;
+    padding-left: 1.5em
 }
 
-.body li {
-    margin-bottom: 0.25rem;
+body ul:not([class]) li {
+    padding-inline-start: 1.5ch;
+    margin-bottom: .25rem;
+    list-style-type: "—";
+
+    &::marker {
+        color: var(--paragraph-color);
+    }
 }
 
 ul ul {
-    margin-top: 0.25rem;
-    margin-bottom: 0.5rem;
+    margin-top: .25rem;
+    margin-bottom: .5rem
 }
 
 hr {
-    width: auto;
+    width: 100px;
     height: 1px;
-    margin: 2.5rem 0;
-    background-color: var(--stroke);
-    border: 0;
+    margin: 3rem auto;
+    background-color: var(--stroke-color);
+    border: 0
+}
+
+hr.full-width {
+    width: auto;
 }
 
 blockquote {
     position: relative;
     padding: 0 0 0 1.5rem;
     margin: 0 2rem 1rem -2rem;
-    // color: var(--quote);
     font-style: italic;
-    border-left: 0.5rem solid var(--quote-stroke);
+    border-left: 0.5rem solid var(--quote-stroke-color);
 }
 
 // Footnote number within body text
@@ -242,8 +267,8 @@ blockquote:last-child {
 }
 
 ::selection {
-    background: var(--highlight-background);
-    color: var(--highlight-paragraph);
+    background: var(--highlight-background-color);
+    color: var(--highlight-paragraph-color);
 }
 
 /*
@@ -256,14 +281,14 @@ pre {
     font-size: 85%;
     font-style: normal;
     // font-weight: normal;
-    color: var(--code-paragraph);
+    color: var(--code-paragraph-color);
 }
 
 :not(pre)>code {
     display: inline-block;
-    background-color: var(--code-background);
-    color: var(--code-paragraph);
-    border: 0.5px solid var(--code-background-secondary);
+    background-color: var(--code-background-color);
+    color: var(--code-paragraph-color);
+    border: 0.5px solid var(--code-background-color-secondary);
     border-radius: 0.25rem;
     padding: 0.01em 0.5em;
     margin: 0 2px;
@@ -286,7 +311,7 @@ pre.highlight {
     margin-left: calc(var(--gutter) * -1);
     padding: 0.75rem var(--gutter);
     overflow: auto;
-    background-color: var(--code-background);
+    background-color: var(--code-background-color);
     -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
@@ -295,7 +320,7 @@ pre.highlight {
         margin-right: 0;
         margin-left: 0;
         padding-left: calc(var(--gutter) - 0.25rem);
-        border-left: 0.25rem solid var(--code-background);
+        border-left: 0.25rem solid var(--code-background-color);
         border-radius: 0.25rem;
     }
 }
@@ -331,6 +356,7 @@ pre.highlight {
 }
 
 header {
+    color: var(--heading-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -347,11 +373,11 @@ header {
 
 h1 {
     >a {
-        color: var(--paragraph);
+        color: var(--heading-color);
     }
 
     >a:hover {
-        color: var(--link);
+        color: var(--heading-color);
     }
 
     span {
@@ -363,7 +389,6 @@ h1 {
 .lead {
     font-size: 1.25rem;
     line-height: 1.3;
-    color: var(--headline);
 
     span {
         display: inline-block;

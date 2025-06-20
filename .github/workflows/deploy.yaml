@@ -1,3 +1,4 @@
+# Source: https://github.com/withastro/github-pages/blob/main/.github/workflows/deploy.yml
 name: Deploy to GitHub Pages
 
 on:
