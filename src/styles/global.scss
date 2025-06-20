@@ -5,45 +5,30 @@
  */
 
 :root {
-    --color-night: #000;
+    --color-ink: #000;
     --color-snow: #fff;
+    --color-scarlet: #ff2400;
+    --color-ivory: #dee2e6;
+    --color-obsidian: #495057;
+    --color-chalk: #f0f0f0;
+    --color-jet: #16181b;
 
-    --gray-0: #0b090a;
-    --gray-1: #f0f0f0;
-    --gray-2: #DEE2E6;
-    --gray-3: #8D99AE;
-    --gray-4: #ADB5BD;
-    --gray-5: #ADB5BD;
-    --gray-6: #6C757D;
-    --gray-7: #495057;
-    --gray-8: rgba(255, 255, 255, .1);
-    --gray-9: #16181b;
-
-    --orange-6: #fd7e14;
-    --orange-7: #f76707;
-    --orange-8: #e8590c;
-    --orange-9: #d9480f;
-
-    --red-6: #e5383b;
-    --red-7: #FF2424;
-    --red-8: #FF0000;
-    --red-9: #ba181b;
-
-    --background-color: var(--gray-2);
-    --heading-color: var(--color-night);
-    --paragraph-color: var(--gray-7);
+    --background-color: var(--color-snow);
+    --heading-color: var(--color-ink);
+    --paragraph-color: var(--color-obsidian);
     --paragraph-text: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif;
-    --paragraph-text-weight: 300;
+    --paragraph-text-weight: 200;
 
-    --link-color: var(--color-night);
+    --link-color: var(--color-ink);
     --link-color-hover: var(--link-color);
-    --link-border-color: var(--gray-4);
+    --link-border-color: var(--color-ivory);
+    --link-text-weight: 400;
 
     --highlight-background-color: var(--paragraph-color);
     --highlight-paragraph-color: var(--background-color);
 
-    --quote-stroke-color: var(--red-6);
-    --stroke-color: var(--gray-4);
+    --quote-stroke-color: var(--color-scarlet);
+    --stroke-color: var(--color-ivory);
 
     --gutter: 1.5rem;
 
@@ -51,7 +36,7 @@
      * Syntax Highlighting
      */
 
-    --code-background-color: var(--gray-1);
+    --code-background-color: var(--color-chalk);
     --code-paragraph-color: var(--paragraph-color);
     --code-paragraph-text: 'JetBrains Mono', 'Courier New', monospace !important;
     --code-background-color-secondary: var(--code-background-color);
@@ -59,30 +44,25 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background-color: var(--gray-9);
+        --background-color: var(--color-jet);
         --heading-color: var(--color-snow);
-        --paragraph-color: var(--gray-2);
+        --paragraph-color: var(--color-ivory);
 
         --link-color: var(--color-snow);
-        --link-border-color: var(--gray-7);
+        --link-border-color: var(--color-obsidian);
 
-        --quote-stroke-color: var(--red-9);
-        --stroke-color: var(--gray-8);
+        --stroke-color: var(--color-obsidian);
 
         /*
          * Syntax Highlighting
          */
 
-        --code-background-color: var(--gray-8);
+        --code-background-color: var(--color-ink);
     }
 }
 
-.zebra-orange {
-    color: var(--orange-6);
-}
-
 .zebra-red {
-    color: var(--red-8);
+    color: var(--color-scarlet);
 }
 
 /*
@@ -137,7 +117,7 @@ a {
 }
 
 .page a {
-    // font-weight: 500;
+    font-weight: var(--link-text-weight);
     text-decoration: underline;
     text-decoration-color: var(--link-border-color);
     text-underline-offset: .25rem;
@@ -280,7 +260,6 @@ pre {
     font-family: var(--code-paragraph-text);
     font-size: 85%;
     font-style: normal;
-    // font-weight: normal;
     color: var(--code-paragraph-color);
 }
 
