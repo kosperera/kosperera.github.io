@@ -1,8 +1,7 @@
 ---
 layout: ../layouts/Default.astro
-author: Kosala (KP) Perera
-title: 'What @KosPerera uses?'
-description: The tools and the stuff I use.
+title: 'What @KosPerera Uses'
+description: The hardware, software, and the stuff I use.
 ---
 
 ## What I use

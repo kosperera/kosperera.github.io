@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/Default.astro
 title: '@KosPerera'
-description: Seasoned Programmer. Longtime Hubber.
+description: Architect @Virtusa. Programmer. Longtime Hubber.
 ---
 
 Hey there <i class="fa-solid fa-hand-spock fa-lg"></i>
@@ -12,7 +12,6 @@ I'm one of the Software Architects at [Virtusa](https://www.virtusa.com). This U
 ## [Articles](/articles/)
 ## [Talks](/talks/)
 ## [Uses](/uses/)
-
 ## [About](/about/)
 
 ---
