@@ -1,6 +1,5 @@
 ---
 layout: ../layouts/Default.astro
-author: Kosala (KP) Perera
 title: 'About @KosPerera'
 description: Get to know more about me.
 ---
@@ -34,11 +33,11 @@ I’ve jotted down all things I rely on — from hardware to software — in one
 
 Here are five things you seriously didn't know about me:
 
-- I've been smoke-free since Oct 20, 2023 — Haven't looked back. No regrets.
+- I've been *smoke-free* since Oct 20, 2023 — Haven't looked back. No regrets.
 - I typically binge books and videos at ~1.5x speed — because there's too much good content and too little time.
-- I'm drawn to cinematic magic and the behind-the-scenes craft enhances my enjoyment — it doesn't spoil the magic.
-- Back in '95, I crossed paths with a seer who foretold a future that came eerily close to becoming inevitable.
-- I can't help but wonder if I'd written a Nolan-style thriller or a GRRM-esque high fantasy saga — it would've rocked.
+- I'm drawn to [cinematic magic](https://www.ilm.com) and the behind-the-scenes craft enhances my enjoyment — it doesn't spoil the magic.
+- Back in '95, I crossed paths with a [seer](https://www.dictionary.com/browse/seer) who foretold a future that came eerily close to becoming inevitable.
+- I can't help but wonder if I'd written a [Nolan-style thriller](https://www.youtube.com/watch?v=67e_jl4flpE) or a [GRRM-esque high fantasy saga](https://www.youtube.com/watch?v=Vcy-EhkHXnE) — it would've rocked.
 
 ---
 
