@@ -4,7 +4,7 @@ title: 'What @KosPerera Uses'
 description: The hardware, software, and the stuff I use.
 ---
 
-## Uses
+## Stuff
 
 Inspired by internet friends, here's a living breathing curated list of stuff I use on a daily basis. My development setup can be found in [my dotfiles repo on GitHub](https://github.com/kosperera/dotfiles) — CLI tools, SDKs, apps, and everything in between.
 
