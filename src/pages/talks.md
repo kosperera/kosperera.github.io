@@ -1,5 +1,7 @@
 ---
 layout: ../layouts/Default.astro
 title: '@KosPerera Talks'
-description: Archive of my talks, presentations, and workshops.
+description: Curated list of my talks, presentations, and workshops.
 ---
+
+## Wait for it!
