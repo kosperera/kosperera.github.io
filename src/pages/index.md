@@ -14,6 +14,5 @@ I'm [Kosala (KP) Perera](https://www.linkedin.com/in/kosperera). And this URL ha
 ## [Stuff](/stuff/)
 ## [About](/about/)
 
----
-
+\
 For comments or questions, feel free to ask me on [LinkedIn](https://www.linkedin.com/in/kosperera) or send me an email at the real kosala at gmail dot com.
