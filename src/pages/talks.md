@@ -35,4 +35,4 @@ I used to jump at any chance to grab the mic and dive into code — meetups, wor
   Compello DevDays · Oslo, Norway · 2015 Winter\
   [Institute of Information Technology](https://www.iit.ac.lk) · Colombo, Sri Lanka · 2014
 
-and more in the [Speaker Deck page](https://speakerdeck.com/kosperera).
+and more in [my Speaker Deck](https://speakerdeck.com/kosperera).

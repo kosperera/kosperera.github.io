@@ -8,11 +8,11 @@ Hey there <i class="fa-solid fa-hand-spock fa-lg"></i>
 
 I'm [Kosala (KP) Perera](https://www.linkedin.com/in/kosperera). And this URL has been my online home for a longtime. Also, I'm one of the Software Architects at [Virtusa](https://www.virtusa.com). Over the years, I’ve spent countless hours designing and coding [RESThooks](https://www.olioapps.com/blog/rest-hooks), Event-driven, Microservices.
 
-## [Articles](/articles/)
-## [Talks](/talks/)
-## [Work](/work/)
-## [Stuff](/stuff/)
-## [About](/about/)
+- ## [Articles](/articles/)
+- ## [Talks](/talks/)
+- ## [Projects](/projects/)
+- ## [Stuff](/stuff/)
+- ## [About](/about/)
 
 \
 For comments or questions, feel free to ask me on [LinkedIn](https://www.linkedin.com/in/kosperera) or send me an email at the real kosala at gmail dot com.

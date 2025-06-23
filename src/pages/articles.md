@@ -14,7 +14,9 @@ I write in the open mostly [for selfish reasons](https://youtu.be/RpH6IPhyh7I?t=
 - [Non-opinionated code review guidelines](https://dev.to/kosperera/non-opinionated-code-review-guidelines-16h1)
 - [Writing pipes and filters for fluent OR-mapping](https://dev.to/kosperera/writing-pipes-and-filters-for-fluent-or-mapping-18hh)
 
-and more in [Medium site](https://kosperera.medium.com). I cross-post in [DEV.to site](https://dev.to/kosperera) for the brave moments when I want feedback with teeth <i class="fa-solid fa-face-laugh-beam fa-lg"></i>
+and more in [my Medium hub](https://kosperera.medium.com).
+
+Also, I cross-post in [DEV.to](https://dev.to/kosperera) for the brave moments when I want feedback with teeth <i class="fa-solid fa-face-laugh-beam fa-lg"></i>
 
 ---
 

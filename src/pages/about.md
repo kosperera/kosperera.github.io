@@ -51,4 +51,5 @@ This URL has been my online home for a longtime. In case you were wondering, thi
 - Hosted on [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow).
 - Originally a flavor of the [Zebra Snooze](https://github.com/alertbox/zebra-snooze) theme.
 
+\
 For comments or questions, feel free to ask me on [LinkedIn](https://www.linkedin.com/in/kosperera) or send me an email at the real kosala at gmail dot com.
