@@ -14,5 +14,11 @@ export default defineConfig({
         contentIntellisense: true,
         headingIdCompat: true,
         preserveScriptOrder: true
+    },
+    redirects: {
+        '/uses': '/stuff',
+        '/slides': '/talks',
+        '/work': '/projects',
+        '/blog': '/articles'
     }
 });
