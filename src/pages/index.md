@@ -10,7 +10,7 @@ I'm [Kosala (KP) Perera](https://www.linkedin.com/in/kosperera). And this URL ha
 
 - ## [Articles](/articles/)
 - ## [Talks](/talks/)
-- ## [Projects](/projects/)
+- ## [Work](/work/)
 - ## [Stuff](/stuff/)
 - ## [About](/about/)
 

@@ -18,7 +18,9 @@ export default defineConfig({
     redirects: {
         '/uses': '/stuff',
         '/slides': '/talks',
-        '/work': '/projects',
+        '/projects': '/work',
+        '/oss': '/work',
+        '/probono': '/work',
         '/blog': '/articles'
     }
 });
