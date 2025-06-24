@@ -6,9 +6,9 @@ description: Get to know more about me.
 
 ## About
 
-I'm [Kosala (KP) Perera](https://www.linkedin.com/in/kosperera). And this URL has been my online home for a longtime. Also, I'm one of the Software Architects at [Virtusa](https://www.virtusa.com).
+I'm [Kosala (KP) Perera](https://www.linkedin.com/in/kosperera). And this URL has been my online home for a longtime.
 
-Over the years, I've spent countless hours designing and coding backend-heavy web and enterprise applications — think [RESThooks](https://www.olioapps.com/blog/rest-hooks), Event-driven, Microservices — for clients across Sri Lanka, Sweden, Norway, Australia, and the US.
+Over the years, I've had the pleasure of working on some amazing products and brands across Sri Lanka, Sweden, Norway, Australia, and the US. I've spent countless hours designing and coding backend-heavy web and enterprise applications — think [RESThooks](https://www.olioapps.com/blog/rest-hooks), [Async messaging](https://aws.amazon.com/blogs/architecture/event-based-processing-for-asynchronous-communication/#:~:text=In%20the%20first%20post%20in,the%20AWS%20Serverless%20event%20bus), Event-driven, Microservices.
 
 I've had the opportunity to work alongside hundreds of developers — across time zones, cultures, and codebases. I've picked up a few principles that shape how I work — both as a team member and as a lead:
 
@@ -24,8 +24,6 @@ Outside of day-to-day, I've been a longtime Hubber — sharing knowledge thru [b
 - AWS or Azure Serverless, Containerless, and Messaging
 - Infrastructure as Code (Terraform) and the Pipelines, and
 - [*Caffeine* needed to build, break, and ship a *good first issue*](https://producingoss.com/en/producingoss.html#starting-from-what-you-have)
-
-I only accept connection requests from folks I’ve actually met or worked with — stranger requests tend to go unopened. Oh, and if you’re thinking about hiring me for consulting, fair warning: I don’t work for free <i class="fa-solid fa-face-smile-wink fa-lg"></i>
 
 ---
 
