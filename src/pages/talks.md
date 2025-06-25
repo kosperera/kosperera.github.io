@@ -10,6 +10,7 @@ I used to jump at any chance to grab the mic and dive into code — meetups, wor
 
 - [InnerSourcing](https://speakerdeck.com/kosperera/inner-sourcing-adopting-open-source-engineering-practices)\
   Virtusa · 2022\
+  [Yoho Bed](https://www.facebook.com/YohoBed/) · 2016 Winter\
   Heylese Advantis · 2016
 
 - [Running Azure Serverless](https://speakerdeck.com/kosperera/azure-serverless-101-running-the-cocktail-bar-in-azure)\
@@ -28,6 +29,7 @@ I used to jump at any chance to grab the mic and dive into code — meetups, wor
 
 - [Starting a Development Project](https://speakerdeck.com/kosperera/starting-a-product-engineering-project)\
   Heylese Advantis · 2016\
+  [Yoho Bed](https://www.facebook.com/YohoBed/) · 2016 Winter\
   [University of Moratuwa](https://www.facebook.com/media/set/?set=a.711872402211298&type=3) · 2014 Summer
 
 - [Refactoring Smelly Code](https://speakerdeck.com/kosperera/o-extended-refactoring-smelly-code)\
