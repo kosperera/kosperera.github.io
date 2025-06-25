@@ -14,7 +14,7 @@ My professional career is pretty much covered in [my LinkedIn profile](https://w
 - [Devcontainers](https://github.com/alertbox?q=devcontainers&type=all&language=&sort=) — Quick-starter development container templates and features.
 - [RESThooks](https://github.com/kosperera?tab=repositories&q=resthooks&type=&language=) — Demo code of the RESThooks async messaging architecture for RESTful APIs and Backend Services
 - [Zebra Snooze](https://alertbox.github.io/zebra-snooze) — This is sixth zebra snoozing thoroughly, a Jekyll remote theme previously used in this site amongst other personal sites.
-- [Docsify](https://github.com/alertbox?q=docsify-&type=&language=) — Unofficial quick start templates, plugins, and extensions for Docsify.js
+- [Docsify](https://github.com/search?q=topic%3Adocsify+org%3Aalertbox&type=Repositories) — Unofficial quick start templates, plugins, and extensions for Docsify.js
 - [Snikt](https://github.com/alertbox/snikt?tab=readme-ov-file#readme) and [Classic DAL](https://www.nuget.org/packages/ClassicDalHelpers) — Inspired by [Dapper](https://github.com/DapperLib/Dapper), a couple of light-weight Micro-ORMs to take away the pain in old-school data access logic.
 
 ### Pro Bono
