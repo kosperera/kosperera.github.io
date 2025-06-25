@@ -8,7 +8,7 @@ description: Get to know more about me.
 
 I'm [Kosala (KP) Perera](https://www.linkedin.com/in/kosperera). And this URL has been my online home for a longtime.
 
-Over the years, I've had the pleasure of working on some amazing products and brands across Sri Lanka, Sweden, Norway, Australia, and the US. I've spent countless hours designing and coding backend-heavy web and enterprise applications — think [RESThooks](https://www.olioapps.com/blog/rest-hooks), [Async messaging](https://aws.amazon.com/blogs/architecture/event-based-processing-for-asynchronous-communication/#:~:text=In%20the%20first%20post%20in,the%20AWS%20Serverless%20event%20bus), Event-driven, Microservices.
+Over the years, I've had the pleasure of working on some amazing products and brands across Sri Lanka, Sweden, Norway, Australia, and the US. I've spent countless hours designing and coding backend-heavy web and enterprise applications — think Monoliths, [RESThooks](https://www.olioapps.com/blog/rest-hooks), [BFF](https://www.reddit.com/r/node/comments/117phzn/comment/j9e691w/), [MACH](https://macharchitecture.com) et al.
 
 I've had the opportunity to work alongside hundreds of developers — across time zones, cultures, and codebases. I've picked up a few principles that shape how I work — both as a team member and as a lead:
 
@@ -21,7 +21,7 @@ I've had the opportunity to work alongside hundreds of developers — across tim
 Outside of day-to-day, I've been a longtime Hubber — sharing knowledge thru [blikies](/articles/), workshops and the occasional [tech talk](/talks/) (whiteboard markers and all). Here's a quick snapshot of what I'm usually wired into:
 
 - .NET (C#) or Quarkus (Java) Backends, and enuf frontend curiosity
-- Serverless [on Azure](https://azure.microsoft.com/en-us/solutions/serverless) or [on AWS](https://aws.amazon.com/serverless/), and Asynchronous Messaging
+- Serverless [on Azure](https://azure.microsoft.com/en-us/solutions/serverless) and [on AWS](https://aws.amazon.com/serverless/)
 - Infrastructure as Code (Terraform) and the Pipelines, and
 - [*Caffeine* needed to build, break, and ship a *good first issue*](https://producingoss.com/en/producingoss.html#starting-from-what-you-have)
 
