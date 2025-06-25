@@ -39,6 +39,6 @@ I used to jump at any chance to grab the mic and dive into code — meetups, wor
   [Colombo AngularJS Meetup](https://www.meetup.com/slangularjs/events/224393849/) · 2015 Fall\
   [Compello DevDays](https://www.facebook.com/media/set/?set=a.776300085780767&type=3) · Norway · 2015 Winter\
   [University of Jaffna](https://www.facebook.com/media/set/?set=a.917666488298554&type=3) · 2015 Fall\
-  [Institute of Information Technology](https://www.iit.ac.lk) ·  2014
+  [Informatics Institute of Technology](https://www.iit.ac.lk) ·  2014
 
 and more in [my deck](https://speakerdeck.com/kosperera).
