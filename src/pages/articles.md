@@ -10,8 +10,8 @@ I write in the open mostly [for selfish reasons](https://youtu.be/RpH6IPhyh7I?t=
 
 - [Migrating Service Fabric apps to .NET 6](https://dev.to/kosperera/migrating-service-fabric-apps-to-net-6-2bee)
 - [Selecting what .NET version is to use](https://dev.to/kosperera/selecting-what-net-version-is-to-use-14n1)
-- [Development containers with Docker](https://dev.to/kosperera/homogenize-your-dev-environments-with-docker-gio)
-- [Non-opinionated code review guidelines](https://dev.to/kosperera/non-opinionated-code-review-guidelines-16h1)
+- [Dev Environment as a Container with Docker](https://kosperera.medium.com/docker-dev-containers-6c0cc1066f67)
+- [Non-opinionated engineering practices](https://kosperera.medium.com/non-opinionated-eng-guidelines-1078892dab9b)
 - [Writing pipes and filters for fluent OR-mapping](https://dev.to/kosperera/writing-pipes-and-filters-for-fluent-or-mapping-18hh)
 
 and more in [my Medium hub](https://kosperera.medium.com).
