@@ -8,6 +8,9 @@ description: Curated list of my projects, OSS contributions, pro bono et al.
 
 My professional career is pretty much covered in [my LinkedIn profile](https://www.linkedin.com/in/kosperera).
 
+\
+<img src="https://ghchart.rshah.org/FF2400/kosperera?auto=compress" alt="KP's GitHub contributions" width="100%" align="center">
+
 ### Open Source
 
 - [Dotfiles](https://github.com/kosperera/dotfiles?tab=readme-ov-file#readme) — Configuration scripts for setting up fresh install of macOS.
@@ -16,6 +19,8 @@ My professional career is pretty much covered in [my LinkedIn profile](https://w
 - [Zebra Snooze](https://alertbox.github.io/zebra-snooze) — This is sixth zebra snoozing thoroughly, a Jekyll remote theme previously used in this site amongst other personal sites.
 - [Docsify](https://github.com/search?q=topic%3Adocsify+org%3Aalertbox&type=Repositories) — Unofficial quick start templates, plugins, and extensions for Docsify.js
 - [Snikt](https://github.com/alertbox/snikt?tab=readme-ov-file#readme) and [Classic DAL](https://www.nuget.org/packages/ClassicDalHelpers) — Inspired by [Dapper](https://github.com/DapperLib/Dapper), a couple of light-weight Micro-ORMs to take away the pain in old-school data access logic.
+
+and more in [my GitHub](https://github.com/kosperera).
 
 ### Pro Bono
 - Curriculum Review — [Rajarata University, Sri Lanka](https://fot.rjt.ac.lk/ict-home/)
