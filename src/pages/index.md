@@ -4,7 +4,7 @@ title: '@KosPerera'
 description: Architect @Virtusa. Programmer. Longtime Hubber.
 ---
 
-<img src="https://ghchart.rshah.org/AF0000/kosperera?auto=compress" alt="KP's GitHub contributions" width="100%" align="center">
+<img src="https://ghchart.rshah.org/495057/kosperera?auto=compress" alt="KP's GitHub contributions" width="100%" align="center">
 
 \
 Hey there <i class="fa-solid fa-hand-spock fa-lg"></i>
