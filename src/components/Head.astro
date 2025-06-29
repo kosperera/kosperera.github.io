@@ -33,4 +33,26 @@ const { canonical = defaultCanonical, frontmatter } = Astro.props;
 <!-- Icons -->
 <link rel="shortcut icon" href="/favicon.ico" />
 
+<!-- Google tag (gtag.js) -->
+<script
+    is:inline
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-RHF0LQDP01"></script>
+<script>
+    document.addEventListener("astro:page-load", () => {
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("consent", "default", {
+            ad_storage: "denied",
+            ad_user_data: "denied",
+            ad_personalization: "denied",
+            analytics_storage: "denied",
+        });
+        gtag("config", "G-RHF0LQDP01");
+    });
+</script>
+
 <ClientRouter />
