@@ -38,7 +38,7 @@ const { canonical = defaultCanonical, frontmatter } = Astro.props;
     is:inline
     async
     src="https://www.googletagmanager.com/gtag/js?id=G-RHF0LQDP01"></script>
-<script>
+<script is:inline>
     document.addEventListener("astro:page-load", () => {
         window.dataLayer = window.dataLayer || [];
         function gtag() {
