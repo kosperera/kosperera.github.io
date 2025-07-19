@@ -31,7 +31,7 @@ Inspired by internet friends, here's a living breathing curated list of stuff I 
 - [Visual Studio Code](https://code.visualstudio.com) with [C# DevKit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) is the only Editor turned IDE worth using for C# and .NET on a Mac. Previously [JetBrains Rider](https://www.jetbrains.com/rider/).
 - [IntelliJ IDEA CE](https://www.jetbrains.com/idea/) is my go-to IDE for [Quarkus](https://github.com/kosperera/skol-resthooks-try-quarkus). Java is [installed via SDKMan](https://github.com/kosperera/dotfiles/blob/main/install).
 - [Zoxide](https://github.com/ajeetdsouza/zoxide#readme-ov-file), [fzf](https://github.com/junegunn/fzf#readme-ov-file), and [stow](https://www.gnu.org/software/stow/) to make the my Terminal smarter.
-- [iA Writer](https://ia.net/writer) is my go-to markdown editor for docs and notes taking. Previously [Typora](https://support.typora.io/Typora-on-macOS/).
+- [Typora app](https://typora.io) is my go-to markdown editor for docs and notes taking.
 - [Draw.io](https://www.drawio.com) is for diagrams.
 - [Procreate](https://procreate.com/procreate) is wonderful for sketching and creative works — but I dabbles!
 
