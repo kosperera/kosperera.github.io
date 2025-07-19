@@ -8,7 +8,7 @@ description: Get to know more about me.
 
 I'm [Kosala (KP) Perera](https://www.linkedin.com/in/kosperera). And this URL has been my online home for a longtime.
 
-Over the years, I've had the pleasure of working on some amazing products and brands across Sri Lanka, Sweden, Norway, Australia, and the US. I've spent countless hours designing and coding backend-heavy web and enterprise applications — think Monoliths, [RESThooks](https://www.olioapps.com/blog/rest-hooks), [BFF](https://www.reddit.com/r/node/comments/117phzn/comment/j9e691w/), [MACH](https://macharchitecture.com) et al.
+Over the years, I've had the pleasure of working on some amazing products and brands across Sri Lanka, Sweden, Norway, Australia, and the US. I've spent countless hours designing and coding backend-heavy web and enterprise applications — think Monoliths, [BFF](https://www.reddit.com/r/node/comments/117phzn/comment/j9e691w/), Event-driven, [RESThooks](https://www.olioapps.com/blog/rest-hooks), [MACH](https://macharchitecture.com) et al.
 
 I've had the opportunity to work alongside hundreds of developers — across time zones, cultures, and codebases. I've picked up a few principles that shape how I work — both as a team member and as a lead:
 
@@ -22,7 +22,8 @@ Outside of day-to-day, I've been a longtime Hubber — sharing knowledge thru [b
 
 - .NET (C#) Backends, and enuf frontend curiosity
 - Serverless [on Azure](https://azure.microsoft.com/en-us/solutions/serverless) and [on AWS](https://aws.amazon.com/serverless/)
-- Infrastructure as Code (OpenTofu and Terraform) and the Pipelines, and
+- Infrastructure as Code [with OpenTofu](https://opentofu.org/docs/intro/) and  [with Terraform](https://developer.hashicorp.com/terraform#get-started))
+- Release engineering [on Azure Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/key-pipelines-concepts?view=azure-devops) and [on Github Actions](https://docs.github.com/en/actions/get-started/understanding-github-actions), and
 - [*Caffeine* needed to build, break, and ship a *good first issue*](https://producingoss.com/en/producingoss.html#starting-from-what-you-have)
 
 ---
@@ -44,7 +45,7 @@ Here are five things you seriously didn't know about me:
 This URL has been my online home for a longtime. In case you were wondering, this site is:
 
 - Design and coded on an MacBook in Georgia, US.
-- Coded with [Visual Studio Code](https://code.visualstudio.com) and [iA Writer](https://ia.net/writer). Previously with [Typora](https://support.typora.io/Typora-on-macOS/).
+- Coded with [Visual Studio Code](https://code.visualstudio.com) and [Typora app](https://support.typora.io/Typora-on-macOS/).
 - Built with [Astro](https://astro.build) and [Bun](https://github.com/alertbox/try-bun/). Previously on [Jekyll](https://github.com/kosperera/kosperera.github/).
 - Hosted on [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow).
 - Originally a flavor of the [Zebra Snooze](https://github.com/alertbox/zebra-snooze) theme.
