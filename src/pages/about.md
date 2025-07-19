@@ -20,9 +20,9 @@ I've had the opportunity to work alongside hundreds of developers — across tim
 
 Outside of day-to-day, I've been a longtime Hubber — sharing knowledge thru [blikies](/articles/), workshops and the occasional [tech talk](/talks/) (whiteboard markers and all). Here's a quick snapshot of what I'm usually wired into:
 
-- .NET (C#) or Quarkus (Java) Backends, and enuf frontend curiosity
+- .NET (C#) Backends, and enuf frontend curiosity
 - Serverless [on Azure](https://azure.microsoft.com/en-us/solutions/serverless) and [on AWS](https://aws.amazon.com/serverless/)
-- Infrastructure as Code (Terraform) and the Pipelines, and
+- Infrastructure as Code (OpenTofu and Terraform) and the Pipelines, and
 - [*Caffeine* needed to build, break, and ship a *good first issue*](https://producingoss.com/en/producingoss.html#starting-from-what-you-have)
 
 ---
