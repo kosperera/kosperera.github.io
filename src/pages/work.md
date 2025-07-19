@@ -6,7 +6,7 @@ description: Curated list of my projects, OSS contributions, pro bono et al.
 
 ## Work
 
-My professional career is pretty much covered in [my LinkedIn profile](https://www.linkedin.com/in/kosperera).
+My professional career is decently well covered covered in [my LinkedIn profile](https://www.linkedin.com/in/kosperera).
 
 \
 <img src="https://ghchart.rshah.org/495057/kosperera?auto=compress" alt="KP's GitHub contributions" width="100%" align="center">
