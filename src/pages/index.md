@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/Default.astro
 title: '@KosPerera'
-description: Architect @Virtusa. Programmer. Longtime Hubber.
+description: Architect @Virtusa. Software Engineer. Longtime Hubber.
 ---
 
 <img src="https://ghchart.rshah.org/495057/kosperera?auto=compress" alt="KP's GitHub contributions" width="100%" align="center">

@@ -37,7 +37,7 @@ Here are five things you seriously didn't know about me:
 - I typically binge books and videos at ~1.5x speed — because there's too much good content and too little time.
 - I'm drawn to [cinematic magic](https://www.ilm.com) and the behind-the-scenes craft enhances my enjoyment — it doesn't spoil the magic.
 - Back in '95, I crossed paths with a [seer](https://www.dictionary.com/browse/seer) who foretold a future that came eerily close to becoming inevitable.
-- I can't help but wonder if I'd written a [Nolan-style thriller](https://www.youtube.com/watch?v=67e_jl4flpE) or a [GRRM-esque high fantasy saga](https://www.youtube.com/watch?v=Vcy-EhkHXnE) — it would've rocked.
+- I can't help but wonder if I'd written a [Nolan-style thriller](https://www.youtube.com/watch?v=67e_jl4flpE) or a [GRRM-esque high fantasy saga](https://www.youtube.com/watch?v=Vcy-EhkHXnE) — it would've rocked <i class="fa-solid fa-face-laugh-squint"></i>
 
 ---
 
