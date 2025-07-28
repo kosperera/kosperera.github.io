@@ -20,10 +20,10 @@ I've had the opportunity to work alongside hundreds of developers — across tim
 
 Outside of day-to-day, I've been a longtime Hubber — sharing knowledge thru [blikies](/articles/), workshops and the occasional [tech talk](/talks/) (whiteboard markers and all). Here's a quick snapshot of what I'm usually wired into:
 
-- .NET (C#) Backends and frontend curiosity
+- .NET (C#) backends and frontend curiosity
 - Serverless [on Azure](https://azure.microsoft.com/en-us/solutions/serverless) and [on AWS](https://aws.amazon.com/serverless/)
-- Application Integration [on AWS](https://aws.amazon.com/products/application-integration/) and [on Azure](https://azure.microsoft.com/en-us/solutions/integration-services)
-- Infrastructure as Code [with OpenTofu](https://opentofu.org/docs/intro/) and [with Terraform](https://developer.hashicorp.com/terraform#get-started)
+- Application integration [on AWS](https://aws.amazon.com/products/application-integration/) and [on Azure](https://azure.microsoft.com/en-us/solutions/integration-services)
+- Infrastructure as code [with OpenTofu](https://opentofu.org/docs/intro/) and [with Terraform](https://developer.hashicorp.com/terraform#get-started)
 - Release engineering [on Azure Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/key-pipelines-concepts?view=azure-devops) and [on Github Actions](https://docs.github.com/en/actions/get-started/understanding-github-actions), and
 - [*Caffeine* needed to build, break, and ship a *good first issue*](https://producingoss.com/en/producingoss.html#starting-from-what-you-have)
 
