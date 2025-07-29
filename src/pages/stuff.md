@@ -6,10 +6,13 @@ description: The hardware, software, and the stuff I use.
 
 ## Stuff
 
-Inspired by internet friends, here's a living breathing curated list of stuff I use on a daily basis. My development setup can be found in [my dotfiles repo on GitHub](https://github.com/kosperera/dotfiles) — CLI tools, SDKs, apps, and everything in between.
+Inspired by internet friends, here's a living breathing curated list of stuff I use on a daily basis.
 
-> #### Full Disclosure!
-> None of the links in this page are affiliated or sponsored links.
+---
+
+> **Full Disclosure**<br>None of the links in this page are affiliated or sponsored links.
+
+---
 
 ### Hardware
 
@@ -17,6 +20,8 @@ Inspired by internet friends, here's a living breathing curated list of stuff I 
 - [13" M3 iPad Air](https://www.amazon.com/Apple-13-inch-Intelligence-Display-All-Day/dp/B0DZ76QBLQ) with [Apple Pencil Pro](https://www.amazon.com/dp/B0D3J71RM7?ref=ods_ucc_kindle_B0D3J71RM7)
 - [Magic Keyboard](https://www.amazon.com/Apple-Magic-Keyboard-US-English/dp/B09BRDXB7N) if only it came in Space Gray.
 - [Magic Trackpad](https://www.amazon.com/Apple-Magic-Trackpad-Multi-Touch-Surface/dp/B09BRG3MZ2)
+
+
 
 #### Desk setup
 
@@ -26,7 +31,11 @@ Inspired by internet friends, here's a living breathing curated list of stuff I 
 - [Anker USB C to HDMI Adapter](https://www.amazon.com/dp/B07THJGZ9Z)
 - [UGREEN Tablet Stand Holder](https://www.amazon.com/dp/B09P87NBYS)
 
+
+
 ### Software
+
+My development setup can be found in [my dotfiles repo on GitHub](https://github.com/kosperera/dotfiles) — CLI tools, SDKs, apps, and everything in between.
 
 - [Visual Studio Code](https://code.visualstudio.com) with [C# DevKit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) is the only Editor turned IDE worth using for C# and .NET on a Mac. Previously [JetBrains Rider](https://www.jetbrains.com/rider/).
 - [IntelliJ IDEA CE](https://www.jetbrains.com/idea/) is my go-to IDE for [Quarkus](https://github.com/kosperera/skol-resthooks-try-quarkus). Java is [installed via SDKMan](https://github.com/kosperera/dotfiles/blob/main/install).
@@ -34,6 +43,8 @@ Inspired by internet friends, here's a living breathing curated list of stuff I 
 - [Typora app](https://typora.io) is my go-to markdown editor for docs and notes taking.
 - [Draw.io](https://www.drawio.com) is for diagrams.
 - [Procreate](https://procreate.com/procreate) is wonderful for sketching and creative works — but I dabbles!
+
+
 
 #### Services
 
