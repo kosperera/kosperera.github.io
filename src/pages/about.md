@@ -12,11 +12,10 @@ Over the years, I've had the pleasure of working on some amazing products and br
 
 I've had the opportunity to work alongside hundreds of developers — across time zones, cultures, and codebases. I've picked up a few principles that shape how I work — both as a team member and as a lead:
 
-- [Egalitarian](https://en.wikipedia.org/wiki/Law_of_Jante) team culture over rockstars and lone-wolf coders
-- Technical facts and data over opinions and personal preferences
-- Style guides over personal habits
-- Time-tested design principles over opinionated-design
-- Consistent and cohesive code over personal preferences
+- [Egalitarian culture](https://en.wikipedia.org/wiki/Law_of_Jante) — no rockstars
+- [Kaizen](https://www.kaizen-news.com/the-history-and-origins-of-kaizen-a-japanese-business-philosophy/) — the boyscout rule of the west
+- [Mr Right and Mr Right Now](https://www.realstorygroup.com/Blog/flirting-enterprise-technology-mr-right-or-mr-right-now)
+- [OKRs](https://rework.withgoogle.com/en/guides/set-goals-with-okrs) — not just Goals and KPIs
 
 Outside of day-to-day, I've been a longtime Hubber — sharing knowledge thru [blikies](/articles/), workshops and the occasional [tech talk](/talks/) (whiteboard markers and all). Here's a quick snapshot of what I'm usually wired into:
 
