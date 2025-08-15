@@ -37,8 +37,7 @@ Inspired by internet friends, here's a living breathing curated list of stuff I 
 
 My development setup can be found in [my dotfiles repo on GitHub](https://github.com/kosperera/dotfiles) — CLI tools, SDKs, apps, and everything in between.
 
-- [Visual Studio Code](https://code.visualstudio.com) with [C# DevKit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) is the only Editor turned IDE worth using for C# and .NET on a Mac. Previously [JetBrains Rider](https://www.jetbrains.com/rider/).
-- [IntelliJ IDEA CE](https://www.jetbrains.com/idea/) is my go-to IDE for [Quarkus](https://github.com/kosperera/skol-resthooks-try-quarkus). Java is [installed via SDKMan](https://github.com/kosperera/dotfiles/blob/main/install).
+- [Visual Studio Code](https://code.visualstudio.com) with [Devcontainers](https://github.com/kosperera?tab=repositories&q=try-&type=&language=&sort=) is the only Editor turned IDE worth using for C# and Jakarta on a Mac. Previously [JetBrains Rider](https://www.jetbrains.com/rider/) and [IntelliJ IDEA CE](https://www.jetbrains.com/idea/).
 - [Zoxide](https://github.com/ajeetdsouza/zoxide#readme-ov-file), [fzf](https://github.com/junegunn/fzf#readme-ov-file), and [stow](https://www.gnu.org/software/stow/) to make the my Terminal smarter.
 - [Typora app](https://typora.io) is my go-to markdown editor for docs and notes taking.
 - [Draw.io](https://www.drawio.com) is for diagrams.
