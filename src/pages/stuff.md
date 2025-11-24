@@ -40,7 +40,7 @@ My development setup can be found in [my dotfiles repo on GitHub](https://github
 - [Visual Studio Code](https://code.visualstudio.com) with [Devcontainers](https://github.com/kosperera?tab=repositories&q=try-&type=&language=&sort=) is the only Editor turned IDE worth using for C# and Jakarta on a Mac. Previously [JetBrains Rider](https://www.jetbrains.com/rider/) and [IntelliJ IDEA CE](https://www.jetbrains.com/idea/).
 - [Zoxide](https://github.com/ajeetdsouza/zoxide#readme-ov-file), [fzf](https://github.com/junegunn/fzf#readme-ov-file), and [stow](https://www.gnu.org/software/stow/) to make the my Terminal smarter.
 - [Typora app](https://typora.io) is my go-to markdown editor for docs.
-- [Goodnotes](https://www.goodnotes.com) is my paper replacer. I use it to take notes.
+- [Goodnotes](https://www.goodnotes.com) is my paper replacer. Also use it to take notes. Previously [reMarkable Paper Pro](https://remarkable.com/products/remarkable-paper/pro).
 - [Draw.io](https://www.drawio.com) is for diagrams.
 - [Procreate](https://procreate.com/procreate) is wonderful for sketching and creative works — but I dabbles!
 
