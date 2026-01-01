@@ -25,7 +25,7 @@ Inspired by internet friends, here's a living breathing curated list of stuff I 
 
 #### Desk setup
 
-- [Huuger Computer Desk](https://www.amazon.com/dp/B0BVQHSY2W)
+- [VIVO Electric Standing Desk](https://www.amazon.com/dp/B0CLMD6YFV)
 - [24" Sceptre Curved Monitor 1080p](https://www.amazon.com/dp/B07KXSR99Y)
 - [HUANUO Single Monitor VISA Mount](https://www.amazon.com/dp/B0BGWQFX56)
 - [Anker USB C to HDMI Adapter](https://www.amazon.com/dp/B07THJGZ9Z)

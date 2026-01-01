@@ -35,7 +35,7 @@ Here are five things you seriously didn't know about me:
 - I've been *smoke-free* since Oct 20, 2023 — Haven't looked back. No regrets.
 - I typically binge books and videos at ~1.5x speed — because there's too much good content and too little time.
 - I'm drawn to [cinematic magic](https://www.ilm.com) and the behind-the-scenes craft enhances my enjoyment — it doesn't spoil the magic.
-- Back in '95, I crossed paths with a [seer](https://www.dictionary.com/browse/seer) who foretold a future that came eerily close to becoming inevitable.
+- I'm into [bouldering and climbing](https://youtube.com/playlist?list=PL1emq-Tbw7AE7LmFsSdycMSNiWq3A_eze&si=dgIQ3Q4FZksLemUj) — it's my escape hatch, the thing that clears my head and reminds me I'm alive.
 - I can't help but wonder if I'd written a [Nolan-style thriller](https://www.youtube.com/watch?v=67e_jl4flpE) or a [GRRM-esque high fantasy saga](https://www.youtube.com/watch?v=Vcy-EhkHXnE) — it would've rocked <i class="fa-solid fa-face-laugh-squint"></i>
 
 ---
