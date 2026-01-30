@@ -18,7 +18,7 @@ Inspired by internet friends, here's a living breathing curated list of stuff I 
 
 - [13" M4 MacBook Air](https://www.amazon.com/dp/B0DZD9S5GC)
 - [13" M3 iPad Air](https://www.amazon.com/Apple-13-inch-Intelligence-Display-All-Day/dp/B0DZ76QBLQ) with [Apple Pencil Pro](https://www.amazon.com/dp/B0D3J71RM7?ref=ods_ucc_kindle_B0D3J71RM7)
-- [Satechi Slim X1 Keyboard](https://www.amazon.com/dp/B08Q2CB7DZ/). Previously [Magic Keyboard](https://www.amazon.com/Apple-Magic-Keyboard-US-English/dp/B09BRDXB7N).
+- [Satechi SM1 Mechanical Keyboard](https://www.amazon.com/dp/B08Q2CB7DZ/). Previously [Magic Keyboard](https://www.amazon.com/Apple-Magic-Keyboard-US-English/dp/B09BRDXB7N).
 - [Magic Trackpad](https://www.amazon.com/Apple-Magic-Trackpad-Multi-Touch-Surface/dp/B09BRG3MZ2)
 
 
@@ -30,6 +30,7 @@ Inspired by internet friends, here's a living breathing curated list of stuff I 
 - [HUANUO Single Monitor VISA Mount](https://www.amazon.com/dp/B0BGWQFX56)
 - [Anker USB C to HDMI Adapter](https://www.amazon.com/dp/B07THJGZ9Z)
 - [UGREEN Tablet Stand Holder](https://www.amazon.com/dp/B09P87NBYS)
+- Desk Pad
 
 
 
