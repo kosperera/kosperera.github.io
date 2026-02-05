@@ -29,8 +29,10 @@ Inspired by internet friends, here's a living breathing curated list of stuff I 
 - [24" Sceptre Curved Monitor 1080p](https://www.amazon.com/dp/B07KXSR99Y)
 - [HUANUO Single Monitor VISA Mount](https://www.amazon.com/dp/B0BGWQFX56)
 - [Anker USB C to HDMI Adapter](https://www.amazon.com/dp/B07THJGZ9Z)
+- [FIFINE AM8T Microphone with Boom Arm Stand](https://www.amazon.com/dp/B0C74GYW3J)
+- [KZ Axas Headphone](https://www.amazon.com/dp/B0G7G86RF7)
+- [SteelSeries QcK Desk Pad](https://www.amazon.com/dp/B0D1T1HZCC)
 - [UGREEN Tablet Stand Holder](https://www.amazon.com/dp/B09P87NBYS)
-- Desk Pad
 
 
 
