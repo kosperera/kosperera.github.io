@@ -19,7 +19,7 @@ Inspired by internet friends, here's a living breathing curated list of stuff I 
 - [13" M4 MacBook Air](https://www.amazon.com/dp/B0DZD9S5GC)
 - [13" M3 iPad Air](https://www.amazon.com/Apple-13-inch-Intelligence-Display-All-Day/dp/B0DZ76QBLQ) with [Apple Pencil Pro](https://www.amazon.com/dp/B0D3J71RM7?ref=ods_ucc_kindle_B0D3J71RM7)
 - [Satechi SM1 Mechanical Keyboard](https://www.amazon.com/dp/B0CV2SDP3H). Previously [Magic Keyboard](https://www.amazon.com/Apple-Magic-Keyboard-US-English/dp/B09BRDXB7N).
-- [Magic Trackpad](https://www.amazon.com/Apple-Magic-Trackpad-Multi-Touch-Surface/dp/B09BRG3MZ2)
+- [Magic Trackpad](https://www.amazon.com/Apple-Magic-Trackpad-Multi-Touch-Surface/dp/B09BRG3MZ2) and [Logitech M720 Triathlon Mouse](https://www.amazon.com/dp/B087Z6LSHW/)
 
 
 
@@ -31,7 +31,7 @@ Inspired by internet friends, here's a living breathing curated list of stuff I 
 - [Anker USB C to HDMI Adapter](https://www.amazon.com/dp/B07THJGZ9Z)
 - [FIFINE AM8T Microphone with Boom Arm Stand](https://www.amazon.com/dp/B0C74GYW3J)
 - [KZ Axas Headphone](https://www.amazon.com/dp/B0G7G86RF7)
-- [SteelSeries QcK Desk Pad](https://www.amazon.com/dp/B0D1T1HZCC)
+- [Pulsar Paracontrol Mouse Pad](https://www.amazon.com/dp/B0B8YB691Y). Previousely [SteelSeries QcK Desk Pad](https://www.amazon.com/dp/B0D1T1HZCC)
 - [UGREEN Tablet Stand Holder](https://www.amazon.com/dp/B09P87NBYS)
 
 
