@@ -31,7 +31,7 @@ Inspired by internet friends, here's a living breathing curated list of stuff I 
 - [Anker USB C to HDMI Adapter](https://www.amazon.com/dp/B07THJGZ9Z)
 - [FIFINE AM8T Microphone with Boom Arm Stand](https://www.amazon.com/dp/B0C74GYW3J)
 - [KZ Axas Headphone](https://www.amazon.com/dp/B0G7G86RF7)
-- [Pulsar Paracontrol Mouse Pad](https://www.amazon.com/dp/B0B8YB691Y). Previousely [SteelSeries QcK Desk Pad](https://www.amazon.com/dp/B0D1T1HZCC)
+- [Pulsar Paracontrol Mouse Pad](https://www.amazon.com/dp/B0B8YB691Y). Previously [SteelSeries QcK Desk Pad](https://www.amazon.com/dp/B0D1T1HZCC)
 - [UGREEN Tablet Stand Holder](https://www.amazon.com/dp/B09P87NBYS)
 
 
@@ -42,7 +42,7 @@ My development setup can be found in [my dotfiles repo on GitHub](https://github
 
 - [Visual Studio Code](https://code.visualstudio.com) with [Devcontainers](https://github.com/kosperera?tab=repositories&q=try-&type=&language=&sort=) is the only Editor turned IDE worth using for C# and Jakarta on a Mac. Previously [JetBrains Rider](https://www.jetbrains.com/rider/) and [IntelliJ IDEA CE](https://www.jetbrains.com/idea/).
 - [Zoxide](https://github.com/ajeetdsouza/zoxide#readme-ov-file), [fzf](https://github.com/junegunn/fzf#readme-ov-file), and [stow](https://www.gnu.org/software/stow/) to make the my Terminal smarter.
-- [Typora app](https://typora.io) is my go-to markdown editor for docs.
+- [Ink MD app](https://ink.litsquare.com) is my go-to markdown editor for docs. Previously [Typora app](https://typora.io).
 - [Goodnotes](https://www.goodnotes.com) is my paper replacer. Also use it to take notes. Previously [reMarkable Paper Pro](https://remarkable.com/products/remarkable-paper/pro).
 - [Draw.io](https://www.drawio.com) is for diagrams.
 - [Procreate](https://procreate.com/procreate) is wonderful for sketching and creative works — but I dabbles!
