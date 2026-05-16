@@ -24,8 +24,8 @@ steps:
       - git init
       - git checkout -b pages
       - git add --all
-      - 'git commit -m "ci: production deploy via Woodpecker" --allow-empty'
+      - 'git commit -m "ci: production deploy via woodpecker" --allow-empty'
       # Bypass the credential helper and inject the token explicitly
       # (We add 'token:' as a dummy username so git reads the string as token auth)
-      - git remote add target https://token:${codeberg_token}@codeberg.org/${CI_REPO}.git
+      - git remote add target https://token:$CODEBERG_TOKEN@codeberg.org/$CI_REPO.git
       - git push -f target pages
