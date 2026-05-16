@@ -9,30 +9,24 @@ steps:
     image: oven/bun:latest
     environment:
       # Directs astro.config.mjs to use codeberg parameters
-      - DEPLOY_TARGET=codeberg
+      DEPLOY_TARGET=codeberg
     commands:
       - bun install --frozen-lockfile
       - bun run build
 
   deploy-pages:
     image: bitnami/git:latest
-
-    # Safe injection of repo secret token
     secrets: [codeberg_token]
     commands:
       - git config --global user.email "woodpecker-ci@noreply.codeberg.org"
       - git config --global user.name "Woodpecker CI"
-
       # Check out a clean clone of `pages` hosting branch
       - git clone --branch pages https://$CODEBERG_TOKEN@codeberg.org/$CI_REPO.git deployment_folder
-
       # Clean out old legacy page files to prevent zombie asset compilation
       - cd deployment_folder
       - git rm -r "*" || true
-
       # Copy the compiled distribution code out of the prior build step
       - cp -ar ../dist/. .
-
       # Push the build up to `pages` branch for live hosting
       - git add --all
       - git commit -m "ci: qoodpecker commit ${CI_COMMIT_SHA:0:7}" --allow-empty
