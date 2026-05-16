@@ -7,12 +7,10 @@ when:
 steps:
   build-project:
     image: oven/bun:latest
-    environment:
-      # Directs astro.config.mjs to use codeberg parameters
-      DEPLOY_TARGET=codeberg
     commands:
       - bun install --frozen-lockfile
-      - bun run build
+      # Directs astro.config.mjs to use codeberg parameters
+      - DEPLOY_TARGET=codeberg bun run build
 
   deploy-pages:
     image: bitnami/git:latest
