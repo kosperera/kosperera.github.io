@@ -27,5 +27,6 @@ steps:
       - cp -ar ../dist/. .
       # Push the build up to `pages` branch for live hosting
       - git add --all
-      - git commit -m "ci: qoodpecker commit ${CI_COMMIT_SHA:0:7}" --allow-empty
+      # Wrapped in single quotes to escape the inner colon safely
+      - 'git commit -m "ci: qoodpecker commit ${CI_COMMIT_SHA:0:7}" --allow-empty'
       - git push origin pages
