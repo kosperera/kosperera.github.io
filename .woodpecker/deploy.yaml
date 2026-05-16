@@ -18,15 +18,13 @@ steps:
     commands:
       - git config --global user.email "woodpecker-ci@noreply.codeberg.org"
       - git config --global user.name "Woodpecker CI"
-      # Check out a clean clone of `pages` hosting branch
-      - git clone --branch pages https://$CODEBERG_TOKEN@codeberg.org/$CI_REPO.git deployment_folder
-      # Clean out old legacy page files to prevent zombie asset compilation
-      - cd deployment_folder
-      - git rm -r "*" || true
-      # Copy the compiled distribution code out of the prior build step
-      - cp -ar ../dist/. .
-      # Push the build up to `pages` branch for live hosting
+      # Explicitly navigate into the compiled directory tree
+      - cd dist
+      # Initialize local tracking
+      - git init
+      - git checkout -b pages
       - git add --all
-      # Wrapped in single quotes to escape the inner colon safely
-      - 'git commit -m "ci: qoodpecker commit ${CI_COMMIT_SHA:0:7}" --allow-empty'
-      - git push origin pages
+      - 'git commit -m "ci: production deploy via Woodpecker" --allow-empty'
+      # Securely upload targeting the specific 'pages' repository
+      - git remote add target https://$CODEBERG_TOKEN@codeberg.org/$CI_REPO.git
+      - git push -f target pages
