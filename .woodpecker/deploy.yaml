@@ -15,7 +15,9 @@ steps:
 
   deploy-pages:
     image: alpine/git:latest
-    secrets: [codeberg_token]
+    environment:
+      CODEBERG_TOKEN:
+        from_secret: codeberg_token
     commands:
       - cd dist
 
@@ -24,4 +26,7 @@ steps:
       - git init -b main
       - git add .
       - 'git commit -m "ci: production deploy via woodpecker [skip ci]" --allow-empty'
-      - git push --force https://${CI_REPO_OWNER}:$CODEBERG_TOKEN@codeberg.org/${CI_REPO}.git main:pages
+      - git remote add origin https://codeberg.org{CI_REPO}.git
+      - AUTH_STR="$CI_REPO_OWNER:$CODEBERG_TOKEN"
+      - AUTH_TOKEN=$(echo -n "$AUTH_STR" | base64 | tr -d '\n')
+      - 'git -c http.extraHeader="Authorization: Basic $AUTH_TOKEN" push --force origin main:pages'
