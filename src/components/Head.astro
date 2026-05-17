@@ -7,7 +7,7 @@ import "../styles/fa/css/solid.css";
 
 import { ClientRouter } from "astro:transitions";
 
-const site = Astro.site ?? Astro.url;
+const site = process.env.PRIMARY_SITE ?? Astro.site ?? Astro.url;
 const defaultCanonical = new URL(Astro.url.pathname + Astro.url.search, site);
 const { canonical = defaultCanonical, frontmatter } = Astro.props;
 ---

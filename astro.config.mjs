@@ -8,8 +8,8 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
   site: process.env.DEPLOY_TARGET === 'codeberg'
-    ? 'https://kosperera.codeberg.page'
-    : 'https://kosperera.github.io',
+    ? process.env.SECONDARY_SITE
+    : process.env.PRIMARY_SITE,
     trailingSlash: 'always',
     integrations: [mdx(), sitemap()],
     experimental: {
