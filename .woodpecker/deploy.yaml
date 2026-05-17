@@ -19,9 +19,9 @@ steps:
     commands:
       - cd dist
 
-      - git init
       - git config --global user.email "woodpecker-ci@noreply.codeberg.org"
       - git config --global user.name "Woodpecker CI"
+      - git init -b main
       - git add .
       - 'git commit -m "ci: production deploy via woodpecker [skip ci]" --allow-empty'
       - git push --force https://${CI_REPO_OWNER}:$CODEBERG_TOKEN@codeberg.org/${CI_REPO}.git main:pages
