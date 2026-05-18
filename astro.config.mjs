@@ -8,8 +8,8 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
   site: process.env.DEPLOY_TARGET === 'codeberg'
-    ? process.env.SECONDARY_SITE
-    : process.env.PRIMARY_SITE,
+    ? process.env.PRIMARY_SITE
+    : process.env.SECONDARY_SITE,
     trailingSlash: 'always',
     integrations: [mdx(), sitemap()],
     experimental: {

@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/Default.astro
-title: 'What @KosPerera Uses'
+title: "What @KosPerera Uses"
 description: The hardware, software, and the stuff I use.
 ---
 
@@ -21,8 +21,6 @@ Inspired by internet friends, here's a living breathing curated list of stuff I 
 - [Satechi SM1 Mechanical Keyboard](https://www.amazon.com/dp/B0CV2SDP3H). Previously [Magic Keyboard](https://www.amazon.com/Apple-Magic-Keyboard-US-English/dp/B09BRDXB7N).
 - [Magic Trackpad](https://www.amazon.com/Apple-Magic-Trackpad-Multi-Touch-Surface/dp/B09BRG3MZ2) and [Logitech M720 Triathlon Mouse](https://www.amazon.com/dp/B087Z6LSHW/)
 
-
-
 #### Desk setup
 
 - [VIVO Electric Standing Desk](https://www.amazon.com/dp/B0CLMD6YFV)
@@ -33,8 +31,6 @@ Inspired by internet friends, here's a living breathing curated list of stuff I 
 - [KZ Axas Headphone](https://www.amazon.com/dp/B0G7G86RF7)
 - [Pulsar Paracontrol Mouse Pad](https://www.amazon.com/dp/B0B8YB691Y). Previously [SteelSeries QcK Desk Pad](https://www.amazon.com/dp/B0D1T1HZCC)
 - [UGREEN Tablet Stand Holder](https://www.amazon.com/dp/B09P87NBYS)
-
-
 
 ### Software
 
@@ -47,10 +43,9 @@ My development setup can be found in [my dotfiles repo on GitHub](https://github
 - [Draw.io](https://www.drawio.com) is for diagrams.
 - [Procreate](https://procreate.com/procreate) is wonderful for sketching and creative works — but I dabbles!
 
-
-
 #### Services
 
-- [GitHub](https://github.com/kosperera) used to be my unicorn and now it is *my bitch!*
+- [Codeberg](https://codeberg.org/kosperera). Why not? The Dutch government [made a similar call](https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/dutch-alternative-sharing-public-code).
+- [GitHub](https://github.com/kosperera) used to be my unicorn, and now it is _enshittified_.
 - Azure and AWS is for the love of cloud architectures and development.
 - Microsoft 365 and OneDrive for obvious reasons.

@@ -5,7 +5,7 @@ when:
   event: push
 
 steps:
-  build-project:
+  build:
     image: oven/bun:latest
     environment:
       DEPLOY_TARGET: codeberg
@@ -13,7 +13,7 @@ steps:
       - bun install --frozen-lockfile
       - bun run build
 
-  deploy-pages:
+  deploy:
     image: alpine/git:latest
     environment:
       CODEBERG_TOKEN:
