@@ -45,7 +45,7 @@ My development setup can be found in [my dotfiles repo on GitHub](https://github
 
 #### Services
 
-- [Codeberg](https://codeberg.org/kosperera). Why not? The Dutch government [made a similar call](https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/dutch-alternative-sharing-public-code).
-- [GitHub](https://github.com/kosperera) used to be my unicorn, and now it is _enshittified_.
-- Azure and AWS is for the love of cloud architectures and development.
+- [Codeberg](https://codeberg.org/kosperera). Why not? [The Dutch government made a similar call](https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/dutch-alternative-sharing-public-code).
+- [GitHub](https://github.com/kosperera). It used to be my unicorn, and [now it is _enshittified_](https://www.youtube.com/watch?v=_Ai-fC-2Bpo).
+- Azure and AWS for the love of cloud architectures and development.
 - Microsoft 365 and OneDrive for obvious reasons.
