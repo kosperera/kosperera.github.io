@@ -36,7 +36,7 @@ Inspired by internet friends, here's a living breathing curated list of stuff I 
 
 My development setup can be found in [my dotfiles repo on GitHub](https://github.com/kosperera/dotfiles) — CLI tools, SDKs, apps, and everything in between.
 
-- [Visual Studio Code](https://code.visualstudio.com) with [Devcontainers](https://github.com/kosperera?tab=repositories&q=try-&type=&language=&sort=) is the only Editor turned IDE worth using for C# and Jakarta on a Mac. Previously [JetBrains Rider](https://www.jetbrains.com/rider/) and [IntelliJ IDEA CE](https://www.jetbrains.com/idea/).
+- [Visual Studio Code](https://code.visualstudio.com) with [Devcontainers](https://github.com/orgs/alertbox/repositories?q=template%3Atrue) is the only Editor turned IDE worth using for C# and Jakarta on a Mac. Previously [JetBrains Rider](https://www.jetbrains.com/rider/) and [IntelliJ IDEA CE](https://www.jetbrains.com/idea/).
 - [Zoxide](https://github.com/ajeetdsouza/zoxide#readme-ov-file), [fzf](https://github.com/junegunn/fzf#readme-ov-file), and [stow](https://www.gnu.org/software/stow/) to make the my Terminal smarter.
 - [Ink MD app](https://ink.litsquare.com) is my go-to markdown editor for docs. Previously [Typora app](https://typora.io).
 - [Goodnotes](https://www.goodnotes.com) is my paper replacer. Also use it to take notes. Previously [reMarkable Paper Pro](https://remarkable.com/products/remarkable-paper/pro).

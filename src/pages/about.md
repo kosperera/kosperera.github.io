@@ -47,7 +47,7 @@ This URL has been my online home for a longtime. In case you were wondering, thi
 - Design and coded on an MacBook in Georgia, US.
 - Coded with [Visual Studio Code](https://code.visualstudio.com) and [Typora app](https://support.typora.io/Typora-on-macOS/).
 - Built with [Astro](https://astro.build) and [Bun](https://github.com/alertbox/try-bun/). Previously on [Jekyll](https://github.com/kosperera/kosperera.github/).
-- Hosted on Codeberg Pages. Previously on [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow).
+- Hosted on [Codeberg Pages](https://codeberg.page). Previously on [GitHub Pages](https://kosperera.github.io/).
 - Originally a flavor of the [Zebra Snooze](https://github.com/alertbox/zebra-snooze) theme.
 
 \

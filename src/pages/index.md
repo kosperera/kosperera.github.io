@@ -1,10 +1,10 @@
 ---
 layout: ../layouts/Default.astro
 title: "@KosPerera"
-description: Architect @Virtusa. Software Engineer. Longtime Gitizen.
+description: Architect @Virtusa. Software Engineer. Longtime Open-Sourcerer.
 ---
 
-<img src="https://ghchart.rshah.org/495057/kosperera?auto=compress" alt="KP's GitHub contributions" width="100%" align="center">
+<img src="https://ghchart.rshah.org/495057/kosperera?auto=compress" alt="KP's Open-Source contributions" width="100%" align="center">
 
 \
 Hey there <i class="fa-solid fa-hand-spock fa-lg"></i>
